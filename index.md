@@ -1,3 +1,8 @@
+---
+title: Main Page
+layout: default
+---
+
 # Open Source GIS Porfolio
 ## Maddie Tango
 
