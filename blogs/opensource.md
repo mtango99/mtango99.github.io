@@ -3,7 +3,6 @@ layout: page
 title: What is Open Source GIScience?
 ---
 
-Reading reflection: Open Source GIScience
 2/28/21
 
 
@@ -29,5 +28,5 @@ While I think the benefits of open source software outweigh the risks for societ
 Sources not linked above: 
 
 Rey, S.J. 2009. Show me the code: spatial analysis and open source. *J Geogr Syst* 11:191-207. 
-
-Singleton, A.D., S. Spielman, & C. Brunsdon. 2016. Establishing a framework for Open Geographic Information science. *International Journal of Geographical Information Science* 30(8):1507-1521. 
+Singleton, A.D., S. Spielman, & C. Brunsdon. 2016. Establishing a framework for Open Geographic 
+	Information science. *International Journal of Geographical Information Science* 30(8):1507-1521. 
