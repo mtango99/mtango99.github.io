@@ -2,7 +2,6 @@
 layout: page
 title: What is Open Source GIScience?
 ---
-Open Source GIS
 2/28/21
 
 
