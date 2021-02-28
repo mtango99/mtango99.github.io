@@ -23,7 +23,7 @@ While I think the benefits of open source software outweigh the risks for societ
 
 
 
-Sources not linked above: 
+**Sources not linked above:** 
 
 Rey, S.J. 2009. Show me the code: spatial analysis and open source. *J Geogr Syst* 11:191-207. 
 Singleton, A.D., S. Spielman, & C. Brunsdon. 2016. Establishing a framework for Open Geographic 
