@@ -5,6 +5,10 @@ title: What is Open Source GIScience?
 Open Source GIS
 2/28/21
 
+A
+
+
+B
 
 Being in this class ([Open Source GIScience, GEOG0323]( https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FGEOG0323)) gives us (students and professor) an opportunity to practice open source science in community with one another. Because open source science is so dependent on community for exchanges of ideas, it would be limiting to the field to follow the traditional honor code rules of using only your brain and your professor’s lectures to produce ideas. This dependence on others as an integral part of the field requires radical transparency and credits reported often. While transparency and credits should already be common practice in any field, these practices seem more central and inherent to the ideals of open source work, as it relies on the continuation of these practices over time to ensure reproducibility, allowing for knowledge to grow and ideas to be exchanged. 
 
