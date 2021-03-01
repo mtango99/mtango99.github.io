@@ -24,7 +24,7 @@ The benefits of open source software also extend practically, as the software ex
 While I think the benefits of open source software outweigh the risks for society at large, I will concede that when thinking about the government and private businesses, the drawbacks of relying on the “little people” may be greater. It would likely require hiring someone who is familiar with open source work and fixing problems themselves by sifting through information, as opposed to calling customer service. While open source software would allow the government or a company to have access to cutting edge software, it also takes extra time and intentionality to download new versions which may have bugs— although long-term releases (LTRs) help mitigate some of this chaos. The “learn as you go” model—keeping up with documentation, new versions, security concerns, etc.— is likely more suited toward scientists than government organizations or private businesses. 
 
 &nbsp;  
-&nbsp;  
+
 **Sources not linked above:** 
 
 Rey, S.J. 2009. Show me the code: spatial analysis and open source. *J Geogr Syst* 11:191-207. 
