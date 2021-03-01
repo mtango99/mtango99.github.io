@@ -4,6 +4,7 @@ title: What is Open Source GIScience?
 ---
 **2/28/21**
 
+In short, Open GIScience is the practice of keeping source code (in this case, for geographical information science) free and accessible to the public— to both use and contribute to.  
 
 Being in this class ([Open Source GIScience, GEOG0323]( https://catalog.middlebury.edu/courses/view/catalog/catalog%2FMCUG/course/course%2FGEOG0323)) gives us (students and professor) an opportunity to practice open source science in community with one another. Because open source science is so dependent on community for exchanges of ideas, it would be limiting to the field to follow the traditional honor code rules of using only your brain and your professor’s lectures to produce ideas. This dependence on others as an integral part of the field requires radical transparency and credits reported often. While transparency and credits should already be common practice in any field, these practices seem more central and inherent to the ideals of open source work, as it relies on the continuation of these practices over time to ensure reproducibility, allowing for knowledge to grow and ideas to be exchanged. 
 
@@ -21,8 +22,8 @@ The benefits of open source software also extend practically, as the software ex
 
 While I think the benefits of open source software outweigh the risks for society at large, I will concede that when thinking about the government and private businesses, the drawbacks of relying on the “little people” may be greater. It would likely require hiring someone who is familiar with open source work and fixing problems themselves by sifting through information, as opposed to calling customer service. While open source software would allow the government or a company to have access to cutting edge software, it also takes extra time and intentionality to download new versions which may have bugs— although long-term releases (LTRs) help mitigate some of this chaos. The “learn as you go” model—keeping up with documentation, new versions, security concerns, etc.— is likely more suited toward scientists than government organizations or private businesses. 
 
-
-
+nbsp;  
+nbsp;  
 **Sources not linked above:** 
 
 Rey, S.J. 2009. Show me the code: spatial analysis and open source. *J Geogr Syst* 11:191-207. 
