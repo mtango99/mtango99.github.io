@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What is Open Source GIScience?
+date: 2/28/21
 ---
 **2/28/21**
 
