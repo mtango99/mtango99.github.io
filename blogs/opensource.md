@@ -1,9 +1,8 @@
 ---
 layout: page
 title: What is Open Source GIScience?
-titleB: hi
+titleD: 2/28/21
 ---
-**2/28/21**
 
 In short, Open GIScience is the practice of keeping source code (in this case, for geographical information science) free and accessible to the public— to both use and contribute to.  
 
