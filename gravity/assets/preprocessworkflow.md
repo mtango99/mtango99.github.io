@@ -5,7 +5,8 @@ titleD: 3/6/21
 ---
 
 **EXTRACT BY EXPRESSION** (using original hospital data layer)
-```"TYPE"='CRITICAL ACCESS' OR
+```
+"TYPE"='CRITICAL ACCESS' OR
 "TYPE"='GENERAL ACUTE CARE' OR
 "TYPE"='WOMEN' OR
 "TYPE"='CHRONIC DISEASE' OR
@@ -15,7 +16,8 @@ titleD: 3/6/21
 =>"Matching Features"
 
 **EXTRACT BY EXPRESSION** (using layer "Matching Features")
-```"STATUS"='OPEN' AND
+```
+"STATUS"='OPEN' AND
 "BEDS">0
 ```
 =>"Matching Features 2"

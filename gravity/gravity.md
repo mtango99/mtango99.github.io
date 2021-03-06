@@ -49,8 +49,7 @@ Here is a [workflow](assets/preprocessworkflow.md) of how the Homeland Security 
 ***APPLYING THE MODEL: HOSPITAL CATCHMENTS IN MASSACHUSETTS***
 
 To apply the model to a specific region within New England 
-(given I started with population data compiled by town in New England: [netown.gpkg](https://gis4dev.github.io/lessons/assets/netown.gpkg) 
-(compiled by J. Holler using [TidyCensus](https://walker-data.com/tidycensus/)), 
+(given I started with population data compiled by town in New England: [netown.gpkg](https://gis4dev.github.io/lessons/assets/netown.gpkg), 
 I just needed to clip the data to my area of interest, which was Massachusetts. 
 I used a [shapefile](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-state-massachusetts-current-block-group-state-based) 
 from the TIGER Census database, and clipped both my hospital and towns data to it. 
@@ -70,6 +69,15 @@ INTERPRETATION
 
 ***DATA SOURCES***
 
+Population data for New England: [netown.gpkg](https://gis4dev.github.io/lessons/assets/netown.gpkg) 
+(compiled by J. Holler using [TidyCensus](https://walker-data.com/tidycensus/))
+
+[Homeland Security Hospital Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)
+
+*Can also be added directly to QGIS using this server link: https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer
+
+[Shapefile of Massachusetts](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-state-massachusetts-current-block-group-state-based) from TIGER Census database. 
+
 [Dartmouth service areas](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries): 
 *"The data set forth at [this location](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries) 
 of publication/press release was obtained from Dartmouth Atlas Data website, 
@@ -79,10 +87,3 @@ under award number UL1TR001086 from the National Center for
 Advancing Translational Sciences (NCATS) of the National Institutes 
 of Health (NIH), and in part, by the National Institute of Aging, 
 under award number U01 AG046830."*
-
-[Shapefile of Massachusetts](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-state-massachusetts-current-block-group-state-based) from TIGER Census database. 
-
-[Homeland Security Hospital Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)
-
-*Can also be added directly to QGIS using this server link: https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer
-
