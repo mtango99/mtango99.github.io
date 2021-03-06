@@ -6,12 +6,14 @@ titleD: 3/6/21
 
 ***DELIVERABLES***
 * Gravity model: [.model3](assets/gravitymodel.model3)
-* Gravity model: [.png](assets/modelimg.png). 
+* Gravity model: [.png](assets/modelimg.png)
 * [Web map](assets/) of hospital catchments in MA
 * [Static map](assets/hospitalcatchmentsMA.png) of hospital catchments in MA
 * [Workflow](assets/preprocessworkflow.md) for preprocessing hospital data
 
+
 ***PURPOSE OF THE MODEL***
+
 This gravity model can take any two input and target layers, 
 convert them to points using centroids, weight by any numerical attribute, 
 and find the relationships with the highest potential using a distance matrix. 
@@ -57,10 +59,14 @@ from the TIGER Census database, and clipped both my hospital and towns data to i
 ***HOSPITAL CATCHMENTS IN MASSACHUSETTS***
 
 **[Here](assets/)** you can find an *interactive web map* of hospital catchments in Massachusetts, comparing those of the model with those of the Dartmouth Atlas. 
+I used leaflet to export my map to the web, and then adjusted the index.html file to label pop-up atttributes and add my name. 
 
 **[Here](assets/hospitalcatchmentsMA.png)** you can find a *static map* of hospital catchments in Massachusetts. 
 
-INTERPRETATION HERE!!!!!!
+The Massachusets catchments differ from the Dartmouth Health Atlas catchments, likely due to 
+WEIGHTING
+INTERPRETATION
+
 
 ***DATA SOURCES***
 
@@ -74,9 +80,7 @@ Advancing Translational Sciences (NCATS) of the National Institutes
 of Health (NIH), and in part, by the National Institute of Aging, 
 under award number U01 AG046830."*
 
-
 [Shapefile of Massachusetts](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-state-massachusetts-current-block-group-state-based) from TIGER Census database. 
-
 
 [Homeland Security Hospital Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)
 

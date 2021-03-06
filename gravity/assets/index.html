@@ -10,9 +10,11 @@
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet-measure.css">
         <style>
-        #map {
-            width: 1303px;
-            height: 805px;
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
         }
         </style>
         <title>Gravity Model Map: Hospital Catchments in MA</title>
@@ -110,7 +112,7 @@
         }
 
         function style_ModelCatchmentswPopDensity_1_0(feature) {
-            if (feature.properties['PopDensity'] >= 42817.146000 && feature.properties['PopDensity'] <= 119150.167200 ) {
+            if (feature.properties['PopDensity'] >= 183233.906000 && feature.properties['PopDensity'] <= 1443973.876800 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -125,7 +127,7 @@
                 interactive: true,
             }
             }
-            if (feature.properties['PopDensity'] >= 119150.167200 && feature.properties['PopDensity'] <= 224908.561600 ) {
+            if (feature.properties['PopDensity'] >= 1443973.876800 && feature.properties['PopDensity'] <= 3162250.980600 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -140,7 +142,7 @@
                 interactive: true,
             }
             }
-            if (feature.properties['PopDensity'] >= 224908.561600 && feature.properties['PopDensity'] <= 336473.445000 ) {
+            if (feature.properties['PopDensity'] >= 3162250.980600 && feature.properties['PopDensity'] <= 5045379.582000 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -155,7 +157,7 @@
                 interactive: true,
             }
             }
-            if (feature.properties['PopDensity'] >= 336473.445000 && feature.properties['PopDensity'] <= 774457.208200 ) {
+            if (feature.properties['PopDensity'] >= 5045379.582000 && feature.properties['PopDensity'] <= 12372097.426000 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -170,7 +172,7 @@
                 interactive: true,
             }
             }
-            if (feature.properties['PopDensity'] >= 774457.208200 && feature.properties['PopDensity'] <= 5210460.677000 ) {
+            if (feature.properties['PopDensity'] >= 12372097.426000 && feature.properties['PopDensity'] <= 47667425511.421997 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -348,7 +350,7 @@
             };
             abstract.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/HospitalsProcessed_3.png" /> Hospitals (Processed)': layer_HospitalsProcessed_3,'<img src="legend/DartmouthAtlasCatchments_2.png" /> Dartmouth Atlas Catchments': layer_DartmouthAtlasCatchments_2,'Model Catchments w/Pop Density<br /><table><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_428171191500.png" /></td><td>42817 - 119150</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_1191502249091.png" /></td><td>119150 - 224909</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_2249093364732.png" /></td><td>224909 - 336473</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_3364737744573.png" /></td><td>336473 - 774457</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_77445752104614.png" /></td><td>774457 - 5210461</td></tr></table>': layer_ModelCatchmentswPopDensity_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/HospitalsProcessed_3.png" /> Hospitals (Processed)': layer_HospitalsProcessed_3,'<img src="legend/DartmouthAtlasCatchments_2.png" /> Dartmouth Atlas Catchments': layer_DartmouthAtlasCatchments_2,'Model Catchments w/Pop Density<br /><table><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_18323414439740.png" /></td><td>183234 - 1443974</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_144397431622511.png" /></td><td>1443974 - 3162251</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_316225150453802.png" /></td><td>3162251 - 5045380</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_5045380123720973.png" /></td><td>5045380 - 12372097</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_12372097476674255114.png" /></td><td>12372097 - 47667425511</td></tr></table>': layer_ModelCatchmentswPopDensity_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
         setBounds();
         </script>
     </body>
