@@ -113,9 +113,6 @@ under award number U01 AG046830."*
 a static map and a web map (depicting any part of New England) of your results with four layers
 
 *hospitals
-
 *calculated hospital catchments
-
 *hospital catchments given by the Dartmouth Atlas (you may exclude this one from your static map)
-
 *population density
