@@ -21,17 +21,19 @@ The model also allows exponent parameters for distance and weights to be adjuste
 It will then create catchments that show spatially the reach that each target point 
 has on its surrounding area by dissolving input geometries with each other. 
 
-While this model was originally used to define hospital catchments based on number of hospital beds and 
+Inputs include input & target features and their unique ID and weight fields. 
+Additionally, advanced options include changing distance friction (beta or β, default: 2), 
+the input weight exponent (lambda or λ, default: 1), and the target weight exponent (alpha or α, default: 1). 
+These advanced inputs were taken from Rodrigue's gravity model as described in 
+*[The Geography of Transport Systems](https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/)*, 
+which uses the formula (inputWeight)^λ * (targetWeight)^α / (distance)^β. 
+
+While I originally used this model to define hospital catchments based on number of hospital beds and 
 population in surrounding areas, because this gravity model has been generalized to any spatial input and target layers with any weight attributes, 
 it can be applied many other situations that require measuring spatial relationships. This is the beauty of a model; it allows for generalization 
 to then be applied to different situations, consistency in methods, and situations where data change and methods need to be rerun. 
 The model is also open source; the .model3 can be found [here](assets/gravitymodel.model3), and a .png image of the model can be 
 found [here](assets/modelimg.png). 
-
-
-TODO
-data sources and references, including appropriate links
-interpretation of model results vis-a-vis the Dartmouth Health Atlas
 
 
 ***HOSPITAL DATA PREPROCESSING***
@@ -43,16 +45,17 @@ the data need to be preprocessed to:
 1. aggregate hospitals by ZIP code and calculating the mean coordinates (centroids would also work) of the hospitals, given hospitals close together 
 are often in co-operation or would otherwise have the same likelihood a patient would go there. 
 
-Here is a [workflow](assets/preprocessworkflow.md) of how the Homeland Security hospital data can be preprocessed. 
+Here is a [workflow](assets/preprocessworkflow.md) for how the Homeland Security hospital data can be preprocessed. 
 
 
 ***APPLYING THE MODEL: HOSPITAL CATCHMENTS IN MASSACHUSETTS***
 
 To apply the model to a specific region within New England 
-(given I started with population data compiled by town in New England: [netown.gpkg](https://gis4dev.github.io/lessons/assets/netown.gpkg), 
+(given I started with population data compiled by town in New England: [netown.gpkg](https://gis4dev.github.io/lessons/assets/netown.gpkg)), 
 I just needed to clip the data to my area of interest, which was Massachusetts. 
 I used a [shapefile](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-state-massachusetts-current-block-group-state-based) 
-from the TIGER Census database, and clipped both my hospital and towns data to it. 
+from the TIGER Census database, and clipped the towns data to it. Because some towns may go to hospitals over state lines (thanks, Sanjana Roy for noticing this issue), I ran a 60 km buffer on 
+the MA shapefile (which had to be exported with a State Plane CRS to add a buffer in km) and then clipped the hospital layer to that. 
 
 
 ***HOSPITAL CATCHMENTS IN MASSACHUSETTS***

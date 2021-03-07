@@ -4,7 +4,7 @@ title: Workflow for Preprocessing Hospital Data
 titleD: 3/6/21
 ---
 
-**EXTRACT BY EXPRESSION** (using original hospital data layer)
+**EXTRACT BY EXPRESSION** ([using original hospital data](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)layer))
 ```
 "TYPE"='CRITICAL ACCESS' OR
 "TYPE"='GENERAL ACUTE CARE' OR
@@ -34,9 +34,10 @@ titleD: 3/6/21
 
 =>"Aggregated"
 
-**JOIN** "Aggregated" to "Mean coordinates"
-* "Mean coordinates" should be first input layer
-* Using ZIP field for Table fields
+**JOIN** ("Aggregated" to "Mean coordinates")
+* Input layer 1: "Mean coordinates"
+* Input layer 2: "Aggregated"
+* Use ZIP field for Table fields
 * Copy all layer 2 fields
 
 =>"HospitalsPreprocessed"
