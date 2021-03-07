@@ -3,7 +3,6 @@ title: Main Page
 layout: default
 ---
 
-# Maddie Tango
 ## Open Source GIS Porfolio
 
 Hey, welcome to my website. Here you'll find my projects from GEOG323. 
