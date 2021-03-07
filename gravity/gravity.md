@@ -39,7 +39,8 @@ found [here](assets/modelimg.png).
 ***HOSPITAL DATA PREPROCESSING***
 
 When applying the gravity model specifically to hospital data using [data from Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0), 
-the data need to be preprocessed to: <br>
+the data need to be preprocessed to: 
+
 1. remove hospitals not meant for public use, hospitals without beds, and closed hospitals, and  
 1. aggregate hospitals by ZIP code and calculating the mean coordinates (centroids would also work) of the hospitals, given hospitals close together 
 are often in co-operation or would otherwise have the same likelihood a patient would go there. 
