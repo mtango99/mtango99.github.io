@@ -28,8 +28,8 @@ These advanced inputs were taken from Rodrigue's gravity model as described in
 *[The Geography of Transport Systems](https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/)*, 
 which uses the formula `(inputWeight)^λ * (targetWeight)^α / (distance)^β`. 
 
-While I originally used this model to define hospital catchments based on number of hospital beds and 
-population in surrounding areas, because this gravity model has been generalized to any spatial input and target layers with any weight attributes, 
+I originally used this model to define hospital catchments based on distance, number of hospital beds, and 
+population in surrounding areas. However, because this gravity model has been generalized to any spatial input and target layers with any weight attributes, 
 it can be applied many other situations that require measuring spatial relationships. This is the beauty of a model; it allows for generalization 
 to then be applied to different situations, consistency in methods, and situations where data change and methods need to be rerun. 
 The model is also open source; the .model3 can be found [here](assets/gravitymodel.model3), and a .png image of the model can be 
