@@ -4,7 +4,7 @@ title: Workflow for Preprocessing Hospital Data
 titleD: 3/6/21
 ---
 
-**EXTRACT BY EXPRESSION** ([using original hospital data layer](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0))
+**EXTRACT BY EXPRESSION** (using original [hospital data layer](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0))
 ```
 "TYPE"='CRITICAL ACCESS' OR
 "TYPE"='GENERAL ACUTE CARE' OR
