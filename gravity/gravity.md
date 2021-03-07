@@ -61,20 +61,20 @@ the MA shapefile (which had to be exported with a State Plane CRS to add a buffe
 ***HOSPITAL CATCHMENTS IN MASSACHUSETTS***
 
 **[Here](assets/)** you can find an *interactive web map* of hospital catchments in Massachusetts, comparing those of the model with those of the Dartmouth Atlas. 
-I used leaflet to export my map to the web, and then adjusted the index.html file to label pop-up atttributes and add my name. 
+I used leaflet to export my map to the web, and then adjusted the index.html file to label pop-up atttributes and add my name. <br>
+Note: hospitals shown include those without beds, which were not included in the model to calculate catchments. 
 
-**[Here](assets/hospitalcatchmentsMA.png)** you can find a *static map* of hospital catchments in Massachusetts. 
+**[Here](assets/hospitalcatchmentsMA.png)** you can find a *static map* of hospital catchments in Massachusetts. <br>
+Note: hospitals shown only include those with beds. 
 
 The Massachusets catchments I produced using the model differ from the Dartmouth Health Atlas catchments, likely due to differences in how distance, population, and beds 
 were weighted in the model. It is also possible that the way I preprocessed my data (to exclude closed hospitals, those that are not open for 
 public use, or those without beds, and combine hospitals in the same ZIP code) differed from the way in which the Dartmouth Health Atlas preprocessed theirs. 
 
-The catchments are similar in that those in and around Boston are smaller geographically as there are more hospitals there. 
-*compare #beds, pop, etc. 
-
-How are they different? West, diff lines, etc. 
-WEIGHTING
-INTERPRETATION: near cities, more but go less far?
+The catchments from my model and Dartmouth's are similar in that those in and around Boston are smaller geographically as there are more hospitals and higher populations there. 
+However, Dartmouth catchments are smaller than my model's, indicating their inclusion of more hospitals in their analysis. 
+This is most noticable in Western Massachusets. It could also be that the distance friction for the Dartmouth catchments was higher than for my model, 
+making it so people were more likely to go to a closer hospital than a larger one and thus making catchments more evenly sized. 
 
 
 ***DATA SOURCES***
