@@ -3,9 +3,9 @@ title: Main Page
 layout: default
 ---
 
-## Open Source GIS Porfolio
+## Open Source GIScience (GEOG0323)
 
-Hey, welcome to my website. Here you'll find my projects from GEOG323. 
+**Projects**
 - [Gravity Model of Spatial Interaction](gravity/gravity.md)
 
 **Blogs**
