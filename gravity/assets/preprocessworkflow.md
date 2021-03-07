@@ -23,23 +23,20 @@ titleD: 3/6/21
 =>"Matching Features 2"
 
 **MEAN COORDINATES** (using layer "Matching Features 2")
-* Unique ID field: ZIP
-
+* Unique ID field: ZIP <br>
 =>"Mean coordinates"
 
 **AGGREGATE BY ZIP** (using layer "Matching Features 2") 
 * ID (first_value)
 * BEDS- weight field (sum)
-* *can delete excess fields*
-
+* *can delete excess fields* <br>
 =>"Aggregated"
 
 **JOIN** ("Aggregated" to "Mean coordinates")
 * Input layer 1: "Mean coordinates"
 * Input layer 2: "Aggregated"
 * Use ZIP field for Table fields
-* Copy all layer 2 fields
-
+* Copy all layer 2 fields <br>
 =>"HospitalsPreprocessed"
 
 

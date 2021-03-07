@@ -5,10 +5,10 @@ titleD: 3/6/21
 ---
 
 ***DELIVERABLES***
-* Gravity model: [.model3](assets/gravitymodel.model3)
-* Gravity model: [.png](assets/modelimg.png)
 * [Web map](assets/) of hospital catchments in MA
 * [Static map](assets/hospitalcatchmentsMA.png) of hospital catchments in MA
+* Gravity model: [.model3](assets/gravitymodel.model3)
+* Gravity model: [.png](assets/modelimg.png)
 * [Workflow](assets/preprocessworkflow.md) for preprocessing hospital data
 
 
@@ -26,7 +26,7 @@ Additionally, advanced options include changing distance friction (beta or β, d
 the input weight exponent (lambda or λ, default: 1), and the target weight exponent (alpha or α, default: 1). 
 These advanced inputs were taken from Rodrigue's gravity model as described in 
 *[The Geography of Transport Systems](https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/)*, 
-which uses the formula (inputWeight)^λ * (targetWeight)^α / (distance)^β. 
+which uses the formula `(inputWeight)^λ * (targetWeight)^α / (distance)^β`. 
 
 While I originally used this model to define hospital catchments based on number of hospital beds and 
 population in surrounding areas, because this gravity model has been generalized to any spatial input and target layers with any weight attributes, 
@@ -39,8 +39,7 @@ found [here](assets/modelimg.png).
 ***HOSPITAL DATA PREPROCESSING***
 
 When applying the gravity model specifically to hospital data using [data from Homeland Security](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0), 
-the data need to be preprocessed to: 
-
+the data need to be preprocessed to: <br>
 1. remove hospitals not meant for public use, hospitals without beds, and closed hospitals, and  
 1. aggregate hospitals by ZIP code and calculating the mean coordinates (centroids would also work) of the hospitals, given hospitals close together 
 are often in co-operation or would otherwise have the same likelihood a patient would go there. 
@@ -54,7 +53,7 @@ To apply the model to a specific region within New England
 (given I started with population data compiled by town in New England: [netown.gpkg](https://gis4dev.github.io/lessons/assets/netown.gpkg)), 
 I just needed to clip the data to my area of interest, which was Massachusetts. 
 I used a [shapefile](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-state-massachusetts-current-block-group-state-based) 
-from the TIGER Census database, and clipped the towns data to it. Because some towns may go to hospitals over state lines (thanks, Sanjana Roy for noticing this issue), I ran a 60 km buffer on 
+from the TIGER Census database, and clipped the towns data to it. Because some towns may go to hospitals over state lines (thanks, Sanjana Roy, for noticing this issue), I ran a 60 km buffer on 
 the MA shapefile (which had to be exported with a State Plane CRS to add a buffer in km) and then clipped the hospital layer to that. 
 
 
@@ -67,7 +66,7 @@ I used leaflet to export my map to the web, and then adjusted the index.html fil
 
 The Massachusets catchments differ from the Dartmouth Health Atlas catchments, likely due to 
 WEIGHTING
-INTERPRETATION
+INTERPRETATION: near cities, more but go less far?
 
 
 ***DATA SOURCES***
