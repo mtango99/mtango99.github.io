@@ -65,7 +65,14 @@ I used leaflet to export my map to the web, and then adjusted the index.html fil
 
 **[Here](assets/hospitalcatchmentsMA.png)** you can find a *static map* of hospital catchments in Massachusetts. 
 
-The Massachusets catchments differ from the Dartmouth Health Atlas catchments, likely due to 
+The Massachusets catchments I produced using the model differ from the Dartmouth Health Atlas catchments, likely due to differences in how distance, population, and beds 
+were weighted in the model. It is also possible that the way I preprocessed my data (to exclude closed hospitals, those that are not open for 
+public use, or those without beds, and combine hospitals in the same ZIP code) differed from the way in which the Dartmouth Health Atlas preprocessed theirs. 
+
+The catchments are similar in that those in and around Boston are smaller geographically as there are more hospitals there. 
+*compare #beds, pop, etc. 
+
+How are they different? West, diff lines, etc. 
 WEIGHTING
 INTERPRETATION: near cities, more but go less far?
 
