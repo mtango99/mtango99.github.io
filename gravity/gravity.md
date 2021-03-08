@@ -57,13 +57,10 @@ I used a [shapefile](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-
 from the TIGER Census database, and clipped the towns data to it. Because some towns may go to hospitals over state lines (thanks, Sanjana Roy, for noticing this issue), I ran a 60 km buffer on 
 the MA shapefile (which had to be exported with a State Plane CRS to add a buffer in km) and then clipped the hospital layer to that. 
 
-
-***HOSPITAL CATCHMENTS IN MASSACHUSETTS***
-
 **[Here](assets/)** you can find an *interactive web map* of hospital catchments in Massachusetts, comparing those of the model with those of the Dartmouth Atlas. 
-I used leaflet to export my map to the web, and then adjusted the index.html file to label pop-up atttributes and add my name. <br>
+I used leaflet to export my map to the web, and then adjusted the index.html file to label pop-up atttributes and add my name.
 
-**[Here](assets/hospitalcatchmentsMA.png)** you can find a *static map* of hospital catchments in Massachusetts. <br>
+**[Here](assets/hospitalcatchmentsMA.png)** you can find a *static map* of hospital catchments in Massachusetts.
 
 The Massachusets catchments I produced using the model differ from the Dartmouth Health Atlas catchments, likely due to differences in how distance, population, and beds 
 were weighted in the model. It is also possible that the way I preprocessed my data (to exclude closed hospitals, those that are not open for 
@@ -74,6 +71,7 @@ However, Dartmouth catchments are smaller than my model's, indicating their incl
 This is most noticable in Western Massachusets. It could also be that the distance friction for the Dartmouth catchments was higher than for my model, 
 making it so people were more likely to go to a closer hospital than a larger one and thus making catchments more evenly sized. 
 
+<br>
 
 ***DATA SOURCES***
 
