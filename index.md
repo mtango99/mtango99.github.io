@@ -12,9 +12,11 @@ layout: default
 - [What is Open GIScience?](blogs/opensource.md)
 - [GIS as Reproducible Science](blogs/GIScience.md)
 
+<br>
 ## Senior Thesis Work
 - [Repository](https://github.com/mtango99/thesis)
 
+<br>
 ## Other
 - [Remote Sensing Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351)
 - [LinkedIn Profile](https://linkedin.com/in/madeleinetango/)
