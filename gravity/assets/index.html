@@ -104,15 +104,12 @@
                     <tr>\
                         <td colspan="2">Population: ' + (feature.properties['SumInputWeight'] !== null ? autolinker.link(feature.properties['SumInputWeight'].toLocaleString()) : '') + '</td>\
                     </tr>\
-                    <tr>\
-                        <td colspan="2">Population Density: ' + (feature.properties['PopDensity'] !== null ? autolinker.link(feature.properties['PopDensity'].toLocaleString()) : '') + '</td>\
-                    </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
         }
 
         function style_ModelCatchmentswPopDensity_1_0(feature) {
-            if (feature.properties['PopDensity'] >= 183233.906000 && feature.properties['PopDensity'] <= 1443973.876800 ) {
+            if (feature.properties['PopDens2'] >= 0.000020 && feature.properties['PopDens2'] <= 0.000158 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -127,7 +124,7 @@
                 interactive: true,
             }
             }
-            if (feature.properties['PopDensity'] >= 1443973.876800 && feature.properties['PopDensity'] <= 3162250.980600 ) {
+            if (feature.properties['PopDens2'] >= 0.000158 && feature.properties['PopDens2'] <= 0.000344 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -142,7 +139,7 @@
                 interactive: true,
             }
             }
-            if (feature.properties['PopDensity'] >= 3162250.980600 && feature.properties['PopDensity'] <= 5154042.431000 ) {
+            if (feature.properties['PopDens2'] >= 0.000344 && feature.properties['PopDens2'] <= 0.000563 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -157,7 +154,7 @@
                 interactive: true,
             }
             }
-            if (feature.properties['PopDensity'] >= 5154042.431000 && feature.properties['PopDensity'] <= 12372097.426000 ) {
+            if (feature.properties['PopDens2'] >= 0.000563 && feature.properties['PopDens2'] <= 0.001355 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -172,7 +169,7 @@
                 interactive: true,
             }
             }
-            if (feature.properties['PopDensity'] >= 12372097.426000 && feature.properties['PopDensity'] <= 75468200510.270004 ) {
+            if (feature.properties['PopDens2'] >= 0.001355 && feature.properties['PopDens2'] <= 8.204667 ) {
                 return {
                 pane: 'pane_ModelCatchmentswPopDensity_1',
                 opacity: 1,
@@ -350,7 +347,7 @@
             };
             abstract.addTo(map);
         var baseMaps = {};
-        L.control.layers(baseMaps,{'<img src="legend/HospitalsProcessed_3.png" /> Hospitals': layer_HospitalsProcessed_3,'<img src="legend/DartmouthAtlasCatchments_2.png" /> Dartmouth Atlas Catchments': layer_DartmouthAtlasCatchments_2,'Model Catchments w/Pop Density<br /><table><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_18323414439740.png" /></td><td>183234 - 1443974</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_144397431622511.png" /></td><td>1443974 - 3162251</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_316225151540422.png" /></td><td>3162251 - 5154042</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_5154042123720973.png" /></td><td>5154042 - 12372097</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_12372097754682005104.png" /></td><td>12372097 - 75468200510</td></tr></table>': layer_ModelCatchmentswPopDensity_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
+        L.control.layers(baseMaps,{'<img src="legend/HospitalsProcessed_3.png" /> Hospitals (Processed)': layer_HospitalsProcessed_3,'<img src="legend/DartmouthAtlasCatchments_2.png" /> Dartmouth Atlas Catchments': layer_DartmouthAtlasCatchments_2,'Model Catchments w/Pop Density<br /><table><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_0000020000160.png" /></td><td>0.00002 - 0.00016</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_0000160000341.png" /></td><td>0.00016 - 0.00034</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_0000340000562.png" /></td><td>0.00034 - 0.00056</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_0000560001363.png" /></td><td>0.00056 - 0.00136</td></tr><tr><td style="text-align: center;"><img src="legend/ModelCatchmentswPopDensity_1_0001368204674.png" /></td><td>0.00136 - 8.20467</td></tr></table>': layer_ModelCatchmentswPopDensity_1,"OSM Standard": layer_OSMStandard_0,}).addTo(map);
         setBounds();
         </script>
     </body>

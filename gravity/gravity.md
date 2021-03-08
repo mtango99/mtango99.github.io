@@ -62,10 +62,8 @@ the MA shapefile (which had to be exported with a State Plane CRS to add a buffe
 
 **[Here](assets/)** you can find an *interactive web map* of hospital catchments in Massachusetts, comparing those of the model with those of the Dartmouth Atlas. 
 I used leaflet to export my map to the web, and then adjusted the index.html file to label pop-up atttributes and add my name. <br>
-Note: hospitals shown include those without beds, which were not included in the model to calculate catchments. 
 
 **[Here](assets/hospitalcatchmentsMA.png)** you can find a *static map* of hospital catchments in Massachusetts. <br>
-Note: hospitals shown only include those with beds. 
 
 The Massachusets catchments I produced using the model differ from the Dartmouth Health Atlas catchments, likely due to differences in how distance, population, and beds 
 were weighted in the model. It is also possible that the way I preprocessed my data (to exclude closed hospitals, those that are not open for 
@@ -82,8 +80,7 @@ making it so people were more likely to go to a closer hospital than a larger on
 Population data for New England: [netown.gpkg](https://gis4dev.github.io/lessons/assets/netown.gpkg) 
 (compiled by J. Holler using [TidyCensus](https://walker-data.com/tidycensus/))
 
-[Homeland Security Hospital Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0)
-
+[Homeland Security Hospital Data](https://hifld-geoplatform.opendata.arcgis.com/datasets/6ac5e325468c4cb9b905f1728d6fbf0f_0) <br>
 *Can also be added directly to QGIS using this server link: https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer
 
 [Shapefile of Massachusetts](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-state-massachusetts-current-block-group-state-based) from TIGER Census database. 
