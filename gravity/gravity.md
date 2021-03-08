@@ -4,6 +4,7 @@ title: Gravity Model of Spatial Interaction
 titleD: 3/6/21
 ---
 
+<br>
 ***DELIVERABLES***
 * [Web map](assets/) of hospital catchments in MA
 * [Static map](assets/hospitalcatchmentsMA.png) of hospital catchments in MA
@@ -11,6 +12,7 @@ titleD: 3/6/21
 * Gravity model: [.png](assets/modelimg.png)
 * [Workflow](assets/preprocessworkflow.md) for preprocessing hospital data
 
+<br>
 
 ***PURPOSE OF THE MODEL***
 
@@ -35,6 +37,7 @@ to then be applied to different situations, consistency in methods, and situatio
 The model is also open source; the .model3 can be found [here](assets/gravitymodel.model3), and a .png image of the model can be 
 found [here](assets/modelimg.png). 
 
+<br>
 
 ***HOSPITAL DATA PREPROCESSING***
 
@@ -47,6 +50,7 @@ are often in co-operation or would otherwise have the same likelihood a patient 
 
 Here is a [workflow](assets/preprocessworkflow.md) for how the Homeland Security hospital data can be preprocessed. 
 
+<br>
 
 ***APPLYING THE MODEL: HOSPITAL CATCHMENTS IN MASSACHUSETTS***
 
