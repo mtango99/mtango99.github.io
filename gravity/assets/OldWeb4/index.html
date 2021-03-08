@@ -39,17 +39,6 @@
         var highlightLayer;
         function highlightFeature(e) {
             highlightLayer = e.target;
-
-            if (e.target.feature.geometry.type === 'LineString') {
-              highlightLayer.setStyle({
-                color: '#ffff00',
-              });
-            } else {
-              highlightLayer.setStyle({
-                fillColor: '#ffff00',
-                fillOpacity: 1
-              });
-            }
             highlightLayer.openPopup();
         }
         var map = L.map('map', {
@@ -92,9 +81,6 @@
         function pop_ModelCatchmentswPopDensity_1(feature, layer) {
             layer.on({
                 mouseout: function(e) {
-                    for (i in e.target._eventParents) {
-                        e.target._eventParents[i].resetStyle(e.target);
-                    }
                     if (typeof layer.closePopup == 'function') {
                         layer.closePopup();
                     } else {
@@ -216,9 +202,6 @@
         function pop_DartmouthAtlasCatchments_2(feature, layer) {
             layer.on({
                 mouseout: function(e) {
-                    for (i in e.target._eventParents) {
-                        e.target._eventParents[i].resetStyle(e.target);
-                    }
                     if (typeof layer.closePopup == 'function') {
                         layer.closePopup();
                     } else {
@@ -272,9 +255,6 @@
         function pop_HospitalsProcessed_3(feature, layer) {
             layer.on({
                 mouseout: function(e) {
-                    for (i in e.target._eventParents) {
-                        e.target._eventParents[i].resetStyle(e.target);
-                    }
                     if (typeof layer.closePopup == 'function') {
                         layer.closePopup();
                     } else {
@@ -363,7 +343,7 @@
                 abstract.show = function () {
                     this._div.classList.remove("abstract");
                     this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = 'This gravity model can take any two input and target layers, convert them to points using centroids, weight by any numerical attribute, and find the relationships with the highest potential using a distance matrix. It will then create catchments that show spatially the reach that each target point has on its surrounding area by dissolving input geometries with each other. <br /><br />Hover over the hospitals, model catchments, and Dartmouth catchments for data, and turn layers on and off at the top right. ';
+                    this._div.innerHTML = 'This gravity model can take any two input and target layers, convert them to points using centroids, weight by any numerical attribute, and find the relationships with the highest potential using a distance matrix. It will then create catchments that show spatially the reach that each target point has on its surrounding area by dissolving input geometries with each other. ';
             };
             abstract.addTo(map);
         var baseMaps = {};
