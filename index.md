@@ -4,7 +4,7 @@ layout: default
 ---
 
 ## Open Source GIScience
-### GEOG0323, Spring 2021 | [Class Site](https://gis4dev.github.io/)
+### GEOG0323 (Spring 2021) | [Class Site](https://gis4dev.github.io/)
 
 **Projects**
 - [Gravity Model of Spatial Interaction](gravity/gravity.md)
