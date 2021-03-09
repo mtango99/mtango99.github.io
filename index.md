@@ -3,7 +3,7 @@ title: Main Page
 layout: default
 ---
 
-## Open Source GIScience ([GEOG0323](https://gis4dev.github.io/))
+## Open Source GIScience ([GEOG0323](https://gis4dev.github.io/), Spring 2021)
 
 **Projects**
 - [Gravity Model of Spatial Interaction](gravity/gravity.md)
@@ -20,8 +20,8 @@ layout: default
 <br>
 
 ## Other
-- [Remote Sensing Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351)
-- [LinkedIn Profile](https://linkedin.com/in/madeleinetango/)
+- [Remote Sensing Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
+- [LinkedIn Profile](https://linkedin.com/in/madeleinetango/); resume available upon request
 - [Photography](https://vsco.co/mtango99/)
 
 
