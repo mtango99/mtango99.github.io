@@ -3,9 +3,8 @@ title: Main Page
 layout: default
 ---
 
-## Open Source GIScience ([GEOG0323](https://gis4dev.github.io/), Spring 2021)
-
-### Spring 2021 ([GEOG0323](https://gis4dev.github.io/)
+## Open Source GIScience
+### GEOG0323, Spring 2021 | [Class Site](https://gis4dev.github.io/)
 
 **Projects**
 - [Gravity Model of Spatial Interaction](gravity/gravity.md)
