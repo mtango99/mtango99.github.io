@@ -3,6 +3,11 @@ title: Main Page
 layout: default
 ---
 
+Welcome to my website! My name is Madeleine Tango and I am a Middlebury College student, graduating in February 2022. 
+I am completing a degree in Conservation Biology (joint major between Environmental Studies and Biology) with a minor in Geography. 
+After graduation, I hope to implement an interdisciplinary approach to solving problems in conservation and environmental equity for a more biodiverse and just world. 
+On this page, you'll find links to various classwork and projects of mine. My GitHub repository itself can be found [here](https://github.com/mtango99). 
+
 ## Open Source GIScience
 ### GEOG0323 (Spring 2021) | [Class Site](https://gis4dev.github.io/)
 
