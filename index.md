@@ -23,14 +23,14 @@ On this page, you'll find links to various classwork and projects of mine. My Gi
 
 <br>
 
-## Senior Thesis Work (Integrative: Environmental Studies, Geography, Biology)
-### Replicability of a Geographic Analysis: Effects of Land Cover on Bat Fatalities at Wind Turbines
+## Senior Thesis Work
+### Replicability of a Geographic Analysis: Effects of Land Cover on Bat Fatalities at Wind Turbines (Integrative: Environmental Studies, Geography, Biology)
 - [Repository](https://github.com/mtango99/thesis)
 
 <br>
 
 ## Other
-- [Remote Sensing Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
+- Remote Sensing with Google Earth Engine [Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
 - [LinkedIn Profile](https://linkedin.com/in/madeleinetango/); resume available upon request
 - [Photography](https://vsco.co/mtango99/)
 
