@@ -96,3 +96,9 @@ under award number UL1TR001086 from the National Center for
 Advancing Translational Sciences (NCATS) of the National Institutes 
 of Health (NIH), and in part, by the National Institute of Aging, 
 under award number U01 AG046830."*
+
+***ACKNOWLEDGEMENTS***
+
+Special thanks to Professor Joseph Holler for providing materials and guidance for this project, as well as 
+my fellow students in GEOG0323, particularly Steven Montilla Morantes, Sanjana Roy, Maja Cannavo, and Jackson Mumper, with whom I worked the closest. 
+
