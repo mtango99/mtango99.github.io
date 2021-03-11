@@ -1075,7 +1075,7 @@
   <Option name="groupBoxes"/>
   <Option type="Map" name="help">
     <Option type="QString" name="ALG_CREATOR" value="Madeleine Tango&#xa;With help from GEOG0385s21 class&#xa;Professor: Joseph Holler"/>
-    <Option type="QString" name="ALG_DESC" value="This model takes two layers (input and target) and calculates maximum potential for each input using weights from both layers and an optional k value (the number of nearest features the model considers). "/>
+    <Option type="QString" name="ALG_DESC" value="This model takes two layers (input and target) and calculates maximum potential for each input using distance, weights from both layers, and an optional k value (the number of nearest features the model considers). The exponents for distance and weights can be changed in &quot;advanced parameters.&quot; &#xa;&#xa;The model calculates potentials using the following formula: (inputWeight)^λ * (targetWeight)^α / (distance)^β."/>
     <Option type="QString" name="ALG_HELP_CREATOR" value="Madeleine Tango"/>
     <Option type="QString" name="ALG_VERSION" value="1.0"/>
     <Option type="QString" name="Alpha" value="Target weight parameter (exponent). Default: 1. "/>
@@ -1096,7 +1096,7 @@
   </Option>
   <Option name="modelVariables"/>
   <Option type="QString" name="model_group" value="Middlebury"/>
-  <Option type="QString" name="model_name" value="Gravity Model"/>
+  <Option type="QString" name="model_name" value="Gravity Model of Spatial Interaction"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="Alpha">
       <Option type="int" name="data_type" value="1"/>
