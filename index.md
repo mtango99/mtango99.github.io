@@ -29,9 +29,9 @@ On this page, you'll find links to various classwork and projects.
 
 ## Senior Thesis Work
 ### Replicability of a Geographic Analysis: Effects of Land Cover on Bat Fatalities at Wind Turbines
-- Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021)
+**Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021)**
 - [Repository](https://github.com/mtango99/thesis): *in progress*
-- *Final Paper Coming Soon...*
+- Final Paper: *Coming Soon...*
 
 <br>
 
