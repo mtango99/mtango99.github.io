@@ -26,7 +26,8 @@ On this page, you'll find links to various classwork and projects of mine. My Gi
 ## Senior Thesis Work
 ### Replicability of a Geographic Analysis: Effects of Land Cover on Bat Fatalities at Wind Turbines
 #### (Integrative: Environmental Studies, Geography, Biology)
-- [Repository](https://github.com/mtango99/thesis): in progress
+- [Repository](https://github.com/mtango99/thesis): *in progress*
+- *Final Paper Coming Soon...*
 
 <br>
 
