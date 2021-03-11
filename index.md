@@ -3,7 +3,7 @@ title: Main Page
 layout: default
 ---
 
-## Welcome to My Website! 
+## Welcome! 
 
 My name is Madeleine Tango and I am a Middlebury College student, graduating in February 2022. 
 I am completing a degree in Conservation Biology (joint major between Environmental Studies and Biology) with a minor in Geography. 
@@ -11,7 +11,7 @@ I am completing a degree in Conservation Biology (joint major between Environmen
 After graduation, I hope to implement an interdisciplinary approach to fighting climate change and maintaining biodiversity by considering spatial impacts and asking questions 
 about equity. I also have deep interest in renewable energy, particularly wind energy, which I explore in my Senior Thesis. 
 
-On this page, you'll find links to various classwork and projects of mine. My GitHub repository itself can be found [here](https://github.com/mtango99). 
+On this page, you'll find links to various classwork and projects. 
 
 <br>
 
@@ -37,6 +37,7 @@ On this page, you'll find links to various classwork and projects of mine. My Gi
 
 ## Other
 - Remote Sensing with Google Earth Engine [Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
+- [GitHub repository](https://github.com/mtango99)
 - [LinkedIn Profile](https://linkedin.com/in/madeleinetango/); resume available upon request
 - [Photography](https://vsco.co/mtango99/)
 
