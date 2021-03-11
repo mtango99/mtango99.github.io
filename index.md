@@ -3,7 +3,7 @@ title: Main Page
 layout: default
 ---
 
-## Welcome to my website! 
+## Welcome to My Website! 
 
 My name is Madeleine Tango and I am a Middlebury College student, graduating in February 2022. 
 I am completing a degree in Conservation Biology (joint major between Environmental Studies and Biology) with a minor in Geography. 
@@ -12,6 +12,8 @@ After graduation, I hope to implement an interdisciplinary approach to fighting 
 about equity. I also have deep interest in renewable energy, particularly wind energy, which I explore in my Senior Thesis. 
 
 On this page, you'll find links to various classwork and projects of mine. My GitHub repository itself can be found [here](https://github.com/mtango99). 
+
+<br>
 
 ## Open Source GIScience
 ### GEOG0323 (Spring 2021) | [Class Site](https://gis4dev.github.io/)
@@ -25,8 +27,9 @@ On this page, you'll find links to various classwork and projects of mine. My Gi
 
 <br>
 
-## Senior Thesis Work (Integrative: Environmental Studies, Geography, Biology)
+## Senior Thesis Work
 ### Replicability of a Geographic Analysis: Effects of Land Cover on Bat Fatalities at Wind Turbines
+- Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021)
 - [Repository](https://github.com/mtango99/thesis): *in progress*
 - *Final Paper Coming Soon...*
 
