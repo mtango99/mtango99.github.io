@@ -24,6 +24,7 @@ On this page, you'll find links to various classwork and projects.
 **Blogs**
 - [What is Open GIScience?](blogs/opensource.md)
 - [GIS as Reproducible Science](blogs/GIScience.md)
+- [Error and Uncertainty](blogs/erroruncertainty.md)
 
 <br>
 
