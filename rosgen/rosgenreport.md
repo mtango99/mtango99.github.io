@@ -5,9 +5,6 @@ titleD: 3/24/21
 ---
 
 <br>
-Rosgen Report (to be put into .md file for website)
-Maddie Tango
-3/23/21
 
 **Introduction**
 
