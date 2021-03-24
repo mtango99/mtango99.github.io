@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Rosgen Classification Methodology
-titleB: Replication of: a classification of natural rivers
 titleD: 3/24/21
 ---
 
 <br>
+**Replication of: a classification of natural rivers**
+
 Original study *by* Rosgen, D. L.
 *in* *CATENA* 22 (3):169–199. https://linkinghub.elsevier.com/retrieve/pii/0341816294900019.
 
