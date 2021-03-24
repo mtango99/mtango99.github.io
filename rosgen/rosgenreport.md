@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Rosgen Classification Methodology
+titleB: Replication of: a classification of natural rivers
 titleD: 3/24/21
 ---
 
 <br>
-**Replication of**
-### A classification of natural rivers
-
 Original study *by* Rosgen, D. L.
 *in* *CATENA* 22 (3):169–199. https://linkinghub.elsevier.com/retrieve/pii/0341816294900019.
 
@@ -17,8 +15,6 @@ Replication Authors:
 Madeleine Tango, Zach Hilgendorf, Joseph Holler, and Peter Kedron.
 
 Replication Materials Available at: [RE-rosgen forked repository](https://github.com/mtango99/RE-rosgen/)
-
-Created: `24 March 2021`
 
 <br>
 **Introduction**
