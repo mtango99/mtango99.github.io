@@ -8,7 +8,7 @@ titleD: 3/24/21
 
 **Introduction**
 
-The ability to classify streams consistently is important for understanding morphological change over time, flood risk, and management implications. In this project, we replicated the methods of [Kasprak et al. 2016]( https://doi.org/10.1371/journal.pone.0150293) to assess its replicability and provide a standardized framework and methodology (models, R script, and an analysis of uncertainty) for future studies that use the Rosgen classification of streams ([Rosgen 1994]( https://linkinghub.elsevier.com/retrieve/pii/0341816294900019)). 
+The ability to classify streams consistently is important for understanding morphological change over time, flood risk, and management implications. In this project, we replicated the methods of [Kasprak et al. (2016)](https://doi.org/10.1371/journal.pone.0150293) to assess its replicability and provide a standardized framework and methodology (models, R script, and an analysis of uncertainty) for future studies that use the Rosgen classification of streams ([Rosgen 1994](https://linkinghub.elsevier.com/retrieve/pii/0341816294900019)). 
 
 <br>
 **Methods**
