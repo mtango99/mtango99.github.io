@@ -5,7 +5,22 @@ titleD: 3/24/21
 ---
 
 <br>
+**Replication of**
+### A classification of natural rivers
 
+Original study *by* Rosgen, D. L.
+*in* *CATENA* 22 (3):169–199. https://linkinghub.elsevier.com/retrieve/pii/0341816294900019.
+
+and Replication by: Kasprak, A., N. Hough-Snee, T. Beechie, N. Bouwes, G. Brierley, R. Camp, K. Fryirs, H. Imaki, M. Jensen, G. O’Brien, D. Rosgen, and J. Wheaton. 2016. The Blurred Line between Form and Process: A Comparison of Stream Channel Classification Frameworks ed. J. A. Jones. *PLOS ONE* 11 (3):e0150293. https://dx.plos.org/10.1371/journal.pone.0150293.
+
+Replication Authors:
+Madeleine Tango, Zach Hilgendorf, Joseph Holler, and Peter Kedron.
+
+Replication Materials Available at: [RE-rosgen forked repository](https://github.com/mtango99/RE-rosgen/)
+
+Created: `24 March 2021`
+
+<br>
 **Introduction**
 
 The ability to classify streams consistently is important for understanding morphological change over time, flood risk, and management implications. In this project, we replicated the methods of [Kasprak et al. (2016)](https://doi.org/10.1371/journal.pone.0150293) to assess its replicability and provide a standardized framework and methodology (models, R script, and an analysis of uncertainty) for future studies that use the Rosgen classification of streams ([Rosgen 1994](https://linkinghub.elsevier.com/retrieve/pii/0341816294900019)). 
