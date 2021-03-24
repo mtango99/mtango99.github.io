@@ -23,6 +23,7 @@ The particular site I studied is at Vinegar Creek which is approximately 50 mile
 **Tables, Graphs, & Maps**
 
 Table 1. Site Measurements
+
 | Variable | Value | Source |
 | :-: | :-: | :-: |
 | Bankfull Width (avg) | 5.3578 m | CHaMP: “BfWdth_Avg” |
@@ -35,6 +36,7 @@ Table 1. Site Measurements
 | Median Channel Material Particle Diameter | 37 mm | CHaMP: “SubD50” |
 
 Table 2. Rosgen Level I Classification
+
 | Criteria | Value |
 | :-: | :-: |
 | Entrenchment Ratio | 5.9726 |
@@ -43,6 +45,7 @@ Table 2. Rosgen Level I Classification
 | Level I Stream Type | C |
 
 Table 3. Rosgen Level II Classification
+
 | Criteria | Value |
 | :-: | :-: |
 | Slope | 0.005729 |
