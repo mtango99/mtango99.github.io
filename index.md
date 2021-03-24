@@ -20,7 +20,7 @@ On this page, you'll find links to various classwork and projects.
 
 **Projects**
 - [Gravity Model of Spatial Interaction](gravity/gravity.md)
-- [Rosgen Stream Classification] (rosgen/rosgenreport.md)
+- [Rosgen Stream Classification](rosgen/rosgenreport.md)
 
 **Blogs**
 - [What is Open GIScience?](blogs/opensource.md)
