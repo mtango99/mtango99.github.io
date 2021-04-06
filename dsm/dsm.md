@@ -19,9 +19,11 @@ increased contact between humans and pathogens, toxins, and other environmental 
 es Salaam to identify spatial distribution of environmental vulnerability.
 
 <br>
+***MAPS***
 
 You can view a Leaflet map [here](assets/), clicking on wards to investigate ward names, area in km^2, number of waste sites in the ward, and density of waste sites.
 
+<br>
 ![Static map1](assets/dsm_staticmap.jpg)
 
 [Figure 1.](assets/dsm_staticmap.jpg) Map of wards, waterway transmission features, and waste sites within 50 m of waterway transmission features. 
@@ -33,6 +35,21 @@ Color of wards indicates density of waste sites within 50 m of waterway transmis
 
 [Figure 2.](assets/dsm_staticmap.jpg) Map showing all waste sites, differentiated by whether or not they were within 50 meters of a waterway transmission feature. 
 
+
+<br>
+***RESULTS***
+
+Waste sites within 50 meters of waterways tended to be clustered in the center of the city (Figure 1). It is difficult to tell whether this is because waste sites were more 
+likely to be included in the layer if within the city due to data collection bias, or if there were indeed more waste sites in the center of the city. 
+
+4947 out of 9628 (51.38%) waste sites were within 50 meters of waterways (Figure 2). Many waterways converge in the center of the city, so it makes sense there would be so many within those buffers. 
+However, it is also possible that when collecting data, observers walked along waterways, or that people tend to put trash near waterways. It also makes sense that because 
+Dar es Salaam is an urban center and population density is high, there would therefore be more trash produced and thus more waste sites in those areas. 
+
+There are many wards with no waste sites. While a few are because the waste sites were not within 50 meters of waterway transmission features, 
+in the original waste site layer the waste sites are mostly in the wards that ended up having a greater-than-0 waste site density. 
+Thus, it is important to acknowledge that the data collection of the waste sites themselves was limited to particular areas, and the 
+lack of waste sites in particular wards may not be representative of reality.
 
 
 <br>
@@ -114,22 +131,6 @@ Calculate dangerous waste site density
 update wards_with_count set danger_ws_density = countwastesites / area_km2;`
 
 <br>
-***RESULTS***
-
-Waste sites within 50 meters of waterways tended to be clustered in the center of the city (Figure 1). It is difficult to tell whether this is because waste sites were more 
-likely to be included in the layer if within the city due to data collection bias, or if there were indeed more waste sites in the center of the city. 
-
-4947 out of 9628 (51.38%) waste sites were within 50 meters of waterways (Figure 2). Many waterways converge in the center of the city, so it makes sense there would be so many within those buffers. 
-However, it is also possible that when collecting data, observers walked along waterways, or that people tend to put trash near waterways. It also makes sense that because 
-Dar es Salaam is an urban center and population density is high, there would therefore be more trash produced and thus more waste sites in those areas. 
-
-There are many wards with no waste sites. While a few are because the waste sites were not within 50 meters of waterway transmission features, 
-in the original waste site layer the waste sites are mostly in the wards that ended up having a greater-than-0 waste site density. 
-Thus, it is important to acknowledge that the data collection of the waste sites themselves was limited to particular areas, and the 
-lack of waste sites in particular wards may not be representative of reality.
-
-
-<br>
 
 ***DATA SOURCES***
 
@@ -155,3 +156,6 @@ lack of waste sites in particular wards may not be representative of reality.
 ***ACKNOWLEDGEMENTS***
 
 Thanks to Maja Cannavo, who was an equal contributor to this project.  Thanks also to Professor Joseph Holler for helping us develop this project idea. 
+
+
+<br>
