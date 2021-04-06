@@ -158,7 +158,7 @@ update wards_with_count set danger_ws_density = countwastesites / area_km2;`
 
 ***ACKNOWLEDGEMENTS***
 
-Thanks to Maja Cannavo, who was an equal contributor to this project.  Thanks also to Professor Joseph Holler for helping us develop this project idea. 
+Thanks to [Maja Cannavo](https://majacannavo.github.io), who was an equal contributor to this project.  Thanks also to Professor Joseph Holler for helping us develop this project idea. 
 
 
 <br>
