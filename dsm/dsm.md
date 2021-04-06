@@ -46,10 +46,11 @@ likely to be included in the layer if within the city due to data collection bia
 However, it is also possible that when collecting data, observers walked along waterways, or that people tend to put trash near waterways. It also makes sense that because 
 Dar es Salaam is an urban center and population density is high, there would therefore be more trash produced and thus more waste sites in those areas. 
 
-There are many wards with no waste sites. While a few are because the waste sites were not within 50 meters of waterway transmission features, 
-in the original waste site layer the waste sites are mostly in the wards that ended up having a greater-than-0 waste site density. 
-Thus, it is important to acknowledge that the data collection of the waste sites themselves was limited to particular areas, and the 
-lack of waste sites in particular wards may not be representative of reality.
+Conversely, there are many wards with no waste sites, mostly outside of the city (Figure 1). While a few are because the waste sites were not within 50 meters of 
+waterway transmission features, in most cases there just were no waste sites in the ward (Figure 2). Here we again need to consider how data collection affected our results-- 
+particularly given this data is open source and editable by anyone with access, so the presence of observers in a particular area tends to be more relevant in interpreting data. 
+The fact that there are no waste sites at all in some wards indicates lack of data collection rather than a reflection of reality, even despite lower population density in areas 
+farther from the city.
 
 
 <br>
