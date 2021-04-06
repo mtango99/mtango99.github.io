@@ -133,9 +133,9 @@ lack of waste sites in particular wards may not be representative of reality.
 
 ***DATA SOURCES***
 
-(Open Street Map)[https://www.openstreetmap.org/] is a public database, editable by anyone with access to it. For data in Dar es Salaam, local university students tend to be the ones editing and updating.
+[Open Street Map](https://www.openstreetmap.org/) is a public database, editable by anyone with access to it. For data in Dar es Salaam, local university students tend to be the ones editing and updating.
 
-(Resilience Academy)[https://resilienceacademy.ac.tz/] is a Dar es Salaam-based program aimed to equipping students with GIS tools necessary to analyze local challenges and urban resilience (e.g. flood risk). 
+[Resilience Academy](https://resilienceacademy.ac.tz/) is a Dar es Salaam-based program aimed to equipping students with GIS tools necessary to analyze local challenges and urban resilience (e.g. flood risk). 
 
 
 <br>
