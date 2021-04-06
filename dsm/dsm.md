@@ -55,6 +55,8 @@ lack of waste sites in particular wards may not be representative of reality.
 <br>
 ***METHODS***
 
+**Below are our methods. We used SQL queries within the DB Manager in QGIS 3.16.4.**
+
 Select relevant waterway features (drains, ditches, streams, rivers, and canals) from planet_osm_line layer
 
 `create table waterway_lines as
