@@ -21,6 +21,8 @@ On this page, you'll find links to various classwork and projects.
 **Projects**
 - [Gravity Model of Spatial Interaction](gravity/gravity.md)
 - [Rosgen Stream Classification](rosgen/rosgenreport.md)
+- [Environmental Vulnerability due to Waste Site Placement Near Water Transmission Features in Dar es Salaam](dsm/dsm.md)
+
 
 **Blogs**
 - [What is Open GIScience?](blogs/opensource.md)
