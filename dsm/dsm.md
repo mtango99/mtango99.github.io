@@ -12,7 +12,7 @@ How does environmental risk and vulnerability due to placement of waste sites ne
 <br>
 ***ABSTRACT***
 
-Placement of solid waste sites near water transmission features such as rivers, streams, canals, drains, and ditches can lead to flooding 
+Placement of solid waste sites near water transmission features ("waterways") such as rivers, streams, canals, drains, and ditches can lead to flooding 
 during rain events if these waste collections block water transmission and egress. Not only can this result in flooding, but it can also lead to 
 increased contact between humans and pathogens, toxins, and other environmental hazards. In this analysis we identify waste collection sites within 
 50 meters of water transmission features as potentially dangerous waste sites and calculate the density of dangerous waste sites for each ward in Dar 
@@ -26,14 +26,14 @@ You can view a Leaflet map **[here](assets/)**, clicking on wards to investigate
 <br>
 ![Static map1](assets/dsm_staticmap.jpg)
 
-[Figure 1.](assets/dsm_staticmap.jpg) Map of wards, waterway transmission features, and waste sites within 50 m of waterway transmission features. 
-Color of wards indicates density of waste sites within 50 m of waterway transmission features per ward. 
+[Figure 1.](assets/dsm_staticmap.jpg) Map of wards, water transmission features, and waste sites within 50 m of water transmission features. 
+Color of wards indicates density of waste sites within 50 m of water transmission features per ward. 
 
 <br>
 
 ![Static map2](assets/dsm_staticmap2.jpg)
 
-[Figure 2.](assets/dsm_staticmap2.jpg) Map showing all waste sites, differentiated by whether or not they were within 50 meters of a waterway transmission feature. 
+[Figure 2.](assets/dsm_staticmap2.jpg) Map showing all waste sites, differentiated by whether or not they were within 50 meters of a water transmission feature. 
 
 
 <br>
@@ -47,7 +47,7 @@ However, it is also possible that when collecting data, observers walked along w
 Dar es Salaam is an urban center and population density is high, there would therefore be more trash produced and thus more waste sites in those areas. 
 
 Conversely, there are many wards with no waste sites, mostly outside of the city (Figure 1). While a few are because the waste sites were not within 50 meters of 
-waterway transmission features, in most cases there just were no waste sites in the ward (Figure 2). Here we again need to consider how data collection affected our results-- 
+waterways, in most cases there just were no waste sites in the ward (Figure 2). Here we again need to consider how data collection affected our results-- 
 particularly given this data is open source and editable by anyone with access, so the presence of observers in a particular area tends to be more relevant in interpreting data. 
 The fact that there are no waste sites at all in some wards indicates lack of data collection rather than a reflection of reality, even despite lower population density in areas 
 farther from the city.
