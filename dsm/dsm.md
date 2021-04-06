@@ -21,7 +21,7 @@ es Salaam to identify spatial distribution of environmental vulnerability.
 <br>
 ***MAPS***
 
-You can view a Leaflet map [here](assets/), clicking on wards to investigate ward names, area in km^2, number of waste sites in the ward, and density of waste sites.
+You can view a Leaflet map **[here](assets/)**, clicking on wards to investigate ward names, area in km^2, number of waste sites in the ward, and density of waste sites.
 
 <br>
 ![Static map1](assets/dsm_staticmap.jpg)
