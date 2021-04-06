@@ -33,7 +33,7 @@ Color of wards indicates density of waste sites within 50 m of waterway transmis
 
 ![Static map2](assets/dsm_staticmap2.jpg)
 
-[Figure 2.](assets/dsm_staticmap.jpg) Map showing all waste sites, differentiated by whether or not they were within 50 meters of a waterway transmission feature. 
+[Figure 2.](assets/dsm_staticmap2.jpg) Map showing all waste sites, differentiated by whether or not they were within 50 meters of a waterway transmission feature. 
 
 
 <br>
