@@ -5,19 +5,24 @@ titleD: 4/5/21
 ---
 
 <br>
-***Question***
-* Gravity model: [.png](assets/modelimg.png)
-* [Workflow](assets/preprocessworkflow.md) for preprocessing hospital data
+***QUESTION***
+
+How does environmental risk and vulnerability due to placement of waste sites near water features vary across the wards of Dar es Salaam? 
 
 <br>
 
-***PURPOSE OF THE MODEL***
-
-
+***ABSTRACT***
+Placement of solid waste sites near water transmission features such as rivers, streams, canals, drains, and ditches can lead to flooding during rain events if these waste collections block water transmission and egress. Not only can this result in flooding, but it can also lead to increased contact between humans and pathogens, toxins, and other environmental hazards. In this analysis we identify waste collection sites within 50 meters of water transmission features as potentially dangerous waste sites and calculate the density of dangerous waste sites for each ward in Dar es Salaam to identify spatial distribution of environmental vulnerability.
 
 <br>
 
-***HOSPITAL DATA PREPROCESSING***
+![Static map](assets/dsm_staticmap.jpg)
+
+[Figure 1.](assets/dsm_staticmap.jpg) Map of 
+
+You can also view a Leaflet map [here]()
+
+***RESULTS***
 
 DSM_results
 
@@ -42,8 +47,7 @@ the data need to be preprocessed to:
 1. aggregate hospitals by ZIP code and calculating the mean coordinates (centroids would also work) of the hospitals, given hospitals close together 
 are often in co-operation or would otherwise have the same likelihood a patient would go there. 
 
-Here is a [workflow](assets/preprocessworkflow.md) for how the Homeland Security hospital data can be preprocessed. 
-[static map](assets/dsm_staticmap.jpg)
+
 
 <br>
 
