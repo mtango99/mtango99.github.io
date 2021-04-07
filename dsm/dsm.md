@@ -39,7 +39,7 @@ Color of wards indicates density of waste sites within 50 m of water transmissio
 
 ![Static map3](assets/dsm_staticmap3.jpg)
 
-[Figure 2.](assets/dsm_staticmap3.jpg) Map showing population density by ward. Map by Maja Cannavo. 
+[Figure 3.](assets/dsm_staticmap3.jpg) Map showing population density by ward. Map by Maja Cannavo. 
 
 
 <br>
@@ -56,7 +56,7 @@ Conversely, there are many wards with no waste sites, mostly outside of the city
 waterways, in most cases there just were no waste sites in the ward (Figure 2). Here we again need to consider how data collection affected our results-- 
 particularly given this data is open source and editable by anyone with access, so the presence of observers in a particular area tends to be more relevant in interpreting data. 
 The fact that there are no waste sites at all in some wards indicates lack of data collection rather than a reflection of reality, even despite lower population density in areas 
-farther from the city.
+farther from the city (Figure 3).
 
 
 <br>
