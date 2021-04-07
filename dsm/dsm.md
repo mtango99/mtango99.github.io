@@ -27,13 +27,19 @@ You can view a Leaflet map **[here](assets/)**, clicking on wards to investigate
 ![Static map1](assets/dsm_staticmap.jpg)
 
 [Figure 1.](assets/dsm_staticmap.jpg) Map of wards, water transmission features, and waste sites within 50 m of water transmission features. 
-Color of wards indicates density of waste sites within 50 m of water transmission features per ward. 
+Color of wards indicates density of waste sites within 50 m of water transmission features per ward. Map by Maja Cannavo. 
 
 <br>
 
 ![Static map2](assets/dsm_staticmap2.jpg)
 
-[Figure 2.](assets/dsm_staticmap2.jpg) Map showing all waste sites, differentiated by whether or not they were within 50 meters of a water transmission feature. 
+[Figure 2.](assets/dsm_staticmap2.jpg) Map showing all waste sites, differentiated by whether or not they were within 50 meters of a water transmission feature. Map by Maja Cannavo. 
+
+<br>
+
+![Static map3](assets/dsm_staticmap3.jpg)
+
+[Figure 2.](assets/dsm_staticmap3.jpg) Map showing population density by ward. Map by Maja Cannavo. 
 
 
 <br>
@@ -44,7 +50,7 @@ likely to be included in the layer if within the city due to data collection bia
 
 4947 out of 9628 (51.38%) waste sites were within 50 meters of waterways (Figure 2). Many waterways converge in the center of the city, so it makes sense there would be so many within those buffers. 
 However, it is also possible that when collecting data, observers walked along waterways, or that people tend to put trash near waterways. It also makes sense that because 
-Dar es Salaam is an urban center and population density is high, there would therefore be more trash produced and thus more waste sites in those areas. 
+Dar es Salaam is an urban center and population density is high (Figure 3), there would therefore be more trash produced and thus more waste sites in those areas. 
 
 Conversely, there are many wards with no waste sites, mostly outside of the city (Figure 1). While a few are because the waste sites were not within 50 meters of 
 waterways, in most cases there just were no waste sites in the ward (Figure 2). Here we again need to consider how data collection affected our results-- 
