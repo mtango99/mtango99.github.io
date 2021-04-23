@@ -19,9 +19,9 @@ First I went through studies in the [AWWIC database](https://awwic.nacse.org/) t
 
 The modified Shoenfeld Estimator is based on the Shoenfeld Estimator [Shoenfeld 2004](https://nationalwind.org/wp-content/uploads/2013/05/Shoenfeld-2004-Suggestions-Regarding-Avian-Mortality-Extrapolation.pdf) with an added *dwp* variable (Peters et al. 2020). It takes into account a variety of parameters to create estimates of total fatalities from raw fatality counts, which then we can compare across wind turbine sites. 
 
-![Modified Shoenfeld Estimator](assets/modShoenfeldEst.JPG)
+![Modified Shoenfeld Estimator](assets/modShoenfeldEst.png)
 
-Unfortunately, a lot of studies did not report enough information for their raw data to be converted into total estimates. 
+Unfortunately, a lot of studies did not report enough information for their raw data to be converted into total estimates. (See full audit [here.](https://github.com/mtango99/thesis/blob/main/results/FatalitiesStudyAudit.xlsx))
 
 ![Fatality Reporting Table](assets/fatalityReportingTable.png)
 
@@ -43,13 +43,16 @@ Here is the [model](https://github.com/mtango99/thesis/blob/main/procedure/code/
 
 [Link to image.](assets/Model_landcoverpreprocessing_img.png) Preprocessing model. QGIS model: graphical modeler visualization. QGIS 3.16.4. 
 
+
 Here is the [model](https://github.com/mtango99/thesis/blob/main/procedure/code/thesismodel.model3) that outputs some landscape metrics. 
 
 ![Model](assets/Model_img.png)
 
 [Link to image.](assets/Model_img.png) QGIS model: graphical modeler visualization. QGIS 3.16.4. 
 
+
 Here is an [R script](https://github.com/mtango99/thesis/blob/main/procedure/code/Thesis_R2.R) that outputs the rest of the landscape metrics. 
+
 
 Here is an [R script](https://github.com/mtango99/thesis/blob/main/procedure/code/rf_example.R) that uses Random Forests, GLMs, and AICc to show which of the landscape metrics are most associated with bat fatalities. 
 
