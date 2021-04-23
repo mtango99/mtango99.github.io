@@ -25,10 +25,10 @@ Unfortunately, a lot of studies did not report enough information for their raw 
 
 ![Fatality Reporting Table](assets/fatalityReportingTable.png)
 
-<br.
+<br>
 **Models**
 
-I made some models that reproduce the methods of the [Peters et al. (2020)](https://tethys.pnnl.gov/sites/default/files/publications/Landscape_Factors_and_Migratory_Tree_Bats_0.pdf) paper. 
+I made some models/R scripts that reproduce the methods of the [Peters et al. (2020)](https://tethys.pnnl.gov/sites/default/files/publications/Landscape_Factors_and_Migratory_Tree_Bats_0.pdf) paper. 
 
 Here is a workflow of Peters et al. (2020)'s methods.
 
@@ -37,13 +37,13 @@ Here is a workflow of Peters et al. (2020)'s methods.
 [Link to image.](assets/Workflow_Figure3.png) Workflow of Peters et al. methods, visualized by M. Tango. Panel a: fatality estimates. Panel b: landscape metrics. Panel c: statistical analyses. 
 
 
-Here is the model I made to preprocess the land cover data (it consolidates similar classes). 
+Here is the [model](https://github.com/mtango99/thesis/blob/main/procedure/code/preprocessinglandcover.model3) I made to preprocess the land cover data (it consolidates similar classes). 
 
 ![Preprocessing Model](assets/Model_landcoverpreprocessing_img.png)
 
 [Link to image.](assets/Model_landcoverpreprocessing_img.png) Preprocessing model. QGIS model: graphical modeler visualization. QGIS 3.16.4. 
 
-Here is the model that outputs some landscape metrics. 
+Here is the [model](https://github.com/mtango99/thesis/blob/main/procedure/code/thesismodel.model3) that outputs some landscape metrics. 
 
 ![Model](assets/Model_img.png)
 
