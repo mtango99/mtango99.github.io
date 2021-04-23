@@ -17,7 +17,7 @@ With the expansion of wind energy as an alternative to fossil fuel use, it is im
 
 First I went through studies in the [AWWIC database](https://awwic.nacse.org/) to see if they could be normalized using a modified Shoenfeld Estimator. 
 
-The modified Shoenfeld Estimator is based on the Shoenfeld Estimator [Shoenfeld 2004](https://nationalwind.org/wp-content/uploads/2013/05/Shoenfeld-2004-Suggestions-Regarding-Avian-Mortality-Extrapolation.pdf) with an added *dwp* variable (Peters et al. 2020). It takes into account a variety of parameters to create estimates of total fatalities from raw fatality counts, which then we can compare across wind turbine sites. 
+The modified Shoenfeld Estimator is based on the Shoenfeld Estimator ([Shoenfeld 2004](https://nationalwind.org/wp-content/uploads/2013/05/Shoenfeld-2004-Suggestions-Regarding-Avian-Mortality-Extrapolation.pdf)) with an added *dwp* variable (Peters et al. 2020). It takes into account a variety of parameters to create estimates of total fatalities from raw fatality counts, which then we can compare across wind turbine sites. 
 
 ![Modified Shoenfeld Estimator](assets/modShoenfeldEst.png)
 
@@ -26,9 +26,9 @@ Unfortunately, a lot of studies did not report enough information for their raw 
 ![Fatality Reporting Table](assets/fatalityReportingTable.png)
 
 <br>
-**Models**
+**Models & R Scripts**
 
-I made some models/R scripts that reproduce the methods of the [Peters et al. (2020)](https://tethys.pnnl.gov/sites/default/files/publications/Landscape_Factors_and_Migratory_Tree_Bats_0.pdf) paper. 
+I made some models and R scripts that reproduce the methods of the [Peters et al. (2020)](https://tethys.pnnl.gov/sites/default/files/publications/Landscape_Factors_and_Migratory_Tree_Bats_0.pdf) paper. Instructions and details for using the models and R scripts can be found [here](https://github.com/mtango99/thesis/blob/main/procedure/protocols/Model_InfoSheet.docx). 
 
 Here is a workflow of Peters et al. (2020)'s methods.
 
