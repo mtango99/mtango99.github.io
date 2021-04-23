@@ -55,9 +55,7 @@ Here is an [R script](https://github.com/mtango99/thesis/blob/main/procedure/cod
 
 Here is an [excel file](https://github.com/mtango99/thesis/blob/main/results/FinalCalculations5.xlsx) with all of the landscape metrics I got for the Beech Ridge, WV (WV-2) turbine site. 
 
-Here is a [sample excel file](https://github.com/mtango99/thesis/blob/main/data/RandomForests_randomData2.csv) for putting all the landscape metrics into one place for use in the statistics R script. 
-
-Here is the [statistics R script](https://github.com/mtango99/thesis/blob/main/procedure/code/rf_example.R) that uses Random Forests, GLMs, and AICc to show which of the landscape metrics are most associated with bat fatalities. 
+Here is the [statistics R script](https://github.com/mtango99/thesis/blob/main/procedure/code/rf_example.R) that uses Random Forests, GLMs, and AICc to show which of the landscape metrics are most associated with bat fatalities. Because there was not enough information to put together bat fatality estimates, I used a sample script of [random data](https://github.com/mtango99/thesis/blob/main/data/RandomForests_randomData2.csv) (this also does not have all possible variables included). 
 
 
 
