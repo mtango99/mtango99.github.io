@@ -7,6 +7,8 @@ titleD: 4/22/21
 <br>
 ### Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021) ###
 
+**Advisors: Joseph Holler & David Allen**
+
 <br>
 **Abstract**
 
