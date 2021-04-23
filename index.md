@@ -35,7 +35,7 @@ On this page, you'll find links to various classwork and projects.
 ### Replicability of a Geographic Analysis: Effects of Land Cover on Bat Fatalities at Wind Turbines
 **Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021)**
 - [Webpage](thesis/thesis.md)
-- [Repository](https://github.com/mtango99/thesis/tree/main/procedure/code)
+- [Repository](https://github.com/mtango99/thesis)
 - Final Paper: *coming soon*
 
 <br>
