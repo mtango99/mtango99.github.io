@@ -21,7 +21,7 @@ First I went through studies in the [AWWIC database](https://awwic.nacse.org/) t
 
 The modified Shoenfeld Estimator is based on the Shoenfeld Estimator ([Shoenfeld 2004](https://nationalwind.org/wp-content/uploads/2013/05/Shoenfeld-2004-Suggestions-Regarding-Avian-Mortality-Extrapolation.pdf)) with an added *dwp* variable (Peters et al. 2020). It takes into account a variety of parameters to create estimates of total fatalities from raw fatality counts, which then we can compare across wind turbine sites. 
 
-![Modified Shoenfeld Estimator](assets/modShoenfeldEst.png)
+![Modified Shoenfeld Estimator](assets/modShoenfeldEst.PNG)
 
 Unfortunately, a lot of studies did not report enough information for their raw data to be converted into total estimates. (See full audit [here.](https://github.com/mtango99/thesis/blob/main/results/FatalitiesStudyAudit.xlsx))
 
