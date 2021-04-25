@@ -65,7 +65,7 @@ Livelihood zones were created based on **INSERT HERE**.
 
 **AGGREGATING TO DIFF GEO UNITS:**
 
-![Table 1.](assets/resilienceWeights.png)
+![Table 1.](assets/resilienceWeights.PNG)
 Table 1. Resilience weights. From Malcomb et al. (2014), Table 2. 
 
 
@@ -111,7 +111,7 @@ The replication study will use R.
 	1. Rasterizing final TA capacity layer 
 1. Masking flood and drought layers 
 1. Reclassify drought raster into quantiles
-1. Add all RASTERs together to calculate final output:  final = (40 - geo) * 0.40 + drought * 0.20 + flood * 0.20
+1. Add all RASTERs together to calculate final output:  final = (40 - geo) * 0.40 + drought * 0.20 + flood * 0.20 + livelihood sensitivity * 0.20
 1. Using zonal statistics to aggregate raster to TA geometry for final calculation of vulnerability in each traditional authority 
 
 
