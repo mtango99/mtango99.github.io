@@ -46,8 +46,9 @@ A **physical exposure** layer included data from UNEP Global Resource Informatio
 Database (GRID)-Europe with variables of estimated risk for flood hazard and exposition to drought events. 
 
 All vulnerability variables were normalized on a scale from of 1-5. Malcomb et al. (2014) had reported 
-normalizing on a scale from 0-5 (6 categories), but also stated they used quintiles (5 categories); 
+normalizing on a scale from 0-5 (6 categories), but also stated they used quintiles (5 categories). We used quintiles on a scale of 1-5. 
 
+Vulnerability variables were decided based on interviews with "experts and villagers"
 
 **interviews and focus groups, construct validity**
 **worksheets from class**
@@ -123,14 +124,42 @@ For each output from the original study (mainly figure 4 and figure 5), present 
 2.	State whether the original study was or was not supported by the replication
 3.	State whether any hypothesis linked to a planned deviation from the original study was supported. Provide key statistics and related reasoning.
 
-Figures to Include:
-- map of resilience by traditional authority in 2010, analagous to figure 4 of the original study
-- map of vulnerability in Malawi, analagous to figure 5 of the original study
-- map of difference between your figure 4 and the original figure 4
-- map of difference between your figure 5 and the original figure 5
---Ordinal data: Ratio/Interval data: continuous. RMSE (Root mean square error)
+Figures: 
 ---Spearman's Rho (try to get close to 1-- positive correlation. -1,0,1 and statistically significant): TABLE
 - Graph of Figure 5 scatterplot
+
+
+![Figure 1](assets/ac_2010.PNG)
+
+[Figure 1.](assets/ac_2010.PNG) Digitization of Figure 4 of Malcomb et al. (2014) showing adaptive capacity (resilience) by traditional authority. 
+
+
+![Figure 2](assets/map_fig4compare.PNG)
+
+[Figure 2.](assets/map_fig4compare.PNG) Difference between my results and my digitization of Figure 4 of Malcomb et al. (2014) (Figure 1). 
+Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relatively similar results between the reproduction and the original. 
+
+
+![Figure 3](assets/vulnMatrix.PNG)
+
+[Figure 3.](assets/vulnMatrix.PNG) Matrix showing differences in resilience grouping between the digitized version of the Figure 4 in Malcomb et al. (2014) (Figure 1) and my reproduction. 
+
+
+
+![Figure 4](assets/vulnerability.PNG)
+
+[Figure 4.](assets/vulnerability.PNG) Digitization of Figure 5 of Malcomb et al. (2015) showing vulnerability.  
+
+
+![Figure 5](assets/map_fig5comp.PNG)
+
+[Figure 5](assets/map_fig5comp.PNG) Difference between my results and my digitization of Figure 5 of Malcomb et al. (2014) (Figure 4). 
+Spearman's Rho was 0.2892254, which is not very close to 1 and therefore had quite different results between the reproduction and the original. 
+
+![Figure 6](assets/resilienceWeights.PNG)
+[Figure 6](assets/resilienceWeights.PNG) Scatterplot showing similarity between my raster
+
+
 
 ## Unplanned Deviations from the Protocol
 
@@ -162,10 +191,10 @@ Provide a summary and interpretation of the key findings of the replication *vis
 - Also the handout (what was the filter-- how did they conceptualize things, how did they measure?-- what contributed to uncertainty)
 - Using reproductions to help with uncertainty (in data and analysis/how it was written)
 
-
+-rpres-res. most negative so undercount 
 
 - data uncertainty-- compiled spreadsheet
-- subjectiveness of markers (
+- subjectiveness of markers
 - database ethnographies paper (semantic shifts in data representation)
 - Monte Carlo simulation (Tate analysis of uncertainty/sensitivity)-- could do multiple times (subjective decision)-- and write code as fxn and compare which is closest (R works, Q would be hard)
 - which income counts as wage income?
