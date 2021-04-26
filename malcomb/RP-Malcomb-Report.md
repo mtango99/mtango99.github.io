@@ -128,12 +128,12 @@ The reproduced adaptive capacity was relatively similar to the original, with a 
 
 ![Figure 1](assets/ac_2010.png)
 
-[Figure 1.](assets/ac_2010.PNG) Digitization of Figure 4 of Malcomb et al. (2014) showing adaptive capacity (resilience) by traditional authority. 
+[Figure 1.](assets/ac_2010.png) Digitization of Figure 4 of Malcomb et al. (2014) showing adaptive capacity (resilience) by traditional authority. 
 
 
-![Figure 2](assets/map_fig4compare.PNG)
+![Figure 2](assets/map_fig4compare.png)
 
-[Figure 2.](assets/map_fig4compare.PNG) Difference between my results and my digitization of Figure 4 of Malcomb et al. (2014) (Figure 1). 
+[Figure 2.](assets/map_fig4compare.png) Difference between my results and my digitization of Figure 4 of Malcomb et al. (2014) (Figure 1). 
 Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relatively similar results between the reproduction and the original. 
 
 
@@ -143,14 +143,14 @@ Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relat
 
 
 
-![Figure 4](assets/vulnerability.PNG)
+![Figure 4](assets/vulnerability.png)
 
-[Figure 4.](assets/vulnerability.PNG) Digitization of Figure 5 of Malcomb et al. (2015) showing vulnerability.  
+[Figure 4.](assets/vulnerability.png) Digitization of Figure 5 of Malcomb et al. (2015) showing vulnerability.  
 
 
-![Figure 5](assets/map_fig5comp.PNG)
+![Figure 5](assets/map_fig5comp.png)
 
-[Figure 5](assets/map_fig5comp.PNG) Difference between my results and my digitization of Figure 5 of Malcomb et al. (2014) (Figure 4). 
+[Figure 5](assets/map_fig5comp.png) Difference between my results and my digitization of Figure 5 of Malcomb et al. (2014) (Figure 4). 
 Spearman's Rho was 0.2892254, which is not very close to 1 and therefore had quite different results between the reproduction and the original. 
 
 
