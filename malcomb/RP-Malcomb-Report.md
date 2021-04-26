@@ -4,7 +4,7 @@ title: RP- Vulnerability modeling for sub-Saharan Africa
 ---
 
 
-**Replication of**
+**Replication of:**
 # Vulnerability modeling for sub-Saharan Africa
 
 Original study *by* Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling for sub-Saharan Africa: An operationalized approach in Malawi. *Applied Geography* 48:17–30. DOI:[10.1016/j.apgeog.2014.01.004](https://doi.org/10.1016/j.apgeog.2014.01.004)
@@ -12,10 +12,10 @@ Original study *by* Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vuln
 Replication Authors:
 Madeleine Tango, Joseph Holler, Kufre Udoh, Open Source GIScience students of fall 2019 and Spring 2021
 
-Replication Materials Available at: [github repository name](mtango99.github.io/malcomb)
+Replication Materials Available at: [mtango99.github.io/malcomb](mtango99.github.io/malcomb)
 
 Created: `23 April 2021`
-Revised: `24 April 2021`
+Revised: `26 April 2021`
 
 ## Abstract 
 
@@ -35,25 +35,33 @@ data (with GPS) was used to create an **adaptive capacity** layer, which include
 assets (livestock units, arable land, number of those sick in household in past 
 12 months, wealth index score, and number of orphans in household) and access (time 
 to water source, has electricity, type of cooking fuel, sex of head of household, 
-owns a cell phone, owns a radio, and urban/rural). **Livelihood sensitivity** data came from 
+owns a cell phone, owns a radio, and urban/rural). Household data from DHS was aggregated to DHA clusters and then joined to traditional authorities. 
+**Livelihood sensitivity** data came from 
 interviews with the Malawi Vulnerability Assessment Committee, as well as data they created 
 with the Famine Early Warning System Netowrk and the US Agency for International Development. 
 Livelihood sensitivity variables include food from own farm (less vulnerability), 
 income from wage labor (less vulnerability), income from cash crops (more vulnerability), 
 and disaster coping strategies (looking specifically at environmentally harmful practices, 
-which cause vulnerability). **HOW DID YOU PUT IT IN? each of zones. POOR.**
+which cause vulnerability). To calculate livelihood sensitivity variables, we created a 
+[spreadsheet](https://github.com/mtango99/RP-Malcomb/blob/main/data/derived/public/livelihoodData.csv) 
+using the "poor" data from the Malawi Vulnerability Assessment Committee. 
+For food from own farm, we divided income from cash crops by total income. 
+For income from wage labor, we divided income from wage labor by total income. 
+For income from cash crops, we divided income from cash crops by total income. 
+For disaster coping strategy, we looked for potentially ecologically harmful 
+practices, including firewood, wild food, and grass sales. We added up income from these 
+practices and divided by total income. 
+All of these were converted to percentages by multiplying by 100. 
 A **physical exposure** layer included data from UNEP Global Resource Information
 Database (GRID)-Europe with variables of estimated risk for flood hazard and exposition to drought events. 
 
 All vulnerability variables were normalized on a scale from of 1-5. Malcomb et al. (2014) had reported 
 normalizing on a scale from 0-5 (6 categories), but also stated they used quintiles (5 categories). We used quintiles on a scale of 1-5. 
 
-Vulnerability variables were decided based on interviews with "experts and villagers"
-
-**interviews and focus groups, construct validity**
-**worksheets from class**
-
-Depending on how much Malcomb et al. (2014) thought each variable would contribute 
+According to Malcomb et al. (2014), "metathemes" (adaptive capacity, livelihood 
+sensitivity, and physical exposure) and individual vulnerability variables were decided based 
+on interviews with government, non-government, and development officials, as well as focus group 
+interviews with villagers. Then, depending on how much Malcomb et al. (2014) thought each variable would contribute 
 to vulnerability, based on their interviews with "experts," each variable was given 
 particular weights (Table 1) and combined to create a vulnerability index. 
 After the original normalization from 1-5, 
@@ -61,8 +69,11 @@ adaptive capacity scores were weighted and then normalized on a range of 0-20 in
 reproduction, making the numbers similar to those in the resilience figures in Malcomb et al. (2014), 
 but it was unclear how exactly they were normalized in the original paper. 
 
-Traditional authority boundary vector layers were downloaded from 
-Livelihood zones were created based on **INSERT HERE**.
+The overall vulnerability score was calculated after normalizing by weighting and adding each metatheme raster together. 
+
+Traditional authority boundary vector layers were downloaded from DHS. 
+Livelihood zones were downloaded from USAID/FEWSNET and the "MWI_adm2" layer was used. 
+See the [metadata folder](https://github.com/mtango99/RP-Malcomb/tree/main/data/metadata) for more information. 
 
 **AGGREGATING TO DIFF GEO UNITS:**
 
@@ -86,6 +97,7 @@ This part may be compiled collaboratively as a group!
 
 The original study was conducted using ArcGIS and STATA, but does not state which versions of these software were used.
 The replication study will use R.
+
 
 ## Materials and Procedure
 
@@ -112,7 +124,7 @@ The replication study will use R.
 	1. Rasterizing final TA capacity layer 
 1. Masking flood and drought layers 
 1. Reclassify drought raster into quantiles
-1. Add all RASTERs together to calculate final output:  final = (40 - geo) * 0.40 + drought * 0.20 + flood * 0.20 + livelihood sensitivity * 0.20
+1. Add all RASTERs together to calculate final output:  final = (40 - geo) * 0.40 + drought * 0.20 + flood * 0.20 - livelihood sensitivity * 0.20
 1. Using zonal statistics to aggregate raster to TA geometry for final calculation of vulnerability in each traditional authority 
 
 
@@ -207,6 +219,11 @@ Provide a summary and interpretation of the key findings of the replication *vis
 
 -There should not have been much of a difference in adaptive capacity (Spearman's Rho of 0.77etc) because we used the same data and weights. Perhaps we normalized the data differently, 
 
+
+**interviews and focus groups, construct validity**
+**worksheets from class**
+
+construct validity of disaster coping strategies. not necessarily bad for the earth! But looks like we may have undercounted given our vulnerability scores are so much lower. but could have been from another part of the analysis as well!
 
 - **include paperse in here**
 
