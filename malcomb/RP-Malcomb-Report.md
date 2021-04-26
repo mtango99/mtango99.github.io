@@ -119,11 +119,6 @@ The replication study will use R.
 
 ## Replication Results
 
-For each output from the original study (mainly figure 4 and figure 5), present separately the results of the replication attempt. 
-
-2.	State whether the original study was or was not supported by the replication
-3.	State whether any hypothesis linked to a planned deviation from the original study was supported. Provide key statistics and related reasoning.
-
 The reproduced adaptive capacity was relatively similar to the original (Figure 1), with a Spearman's Rho of 0.7757072 (on a scale of 0-1 with 0 being dissimilar and 1 being the same). 
 There were a lot more areas where the reproduction underestimated adaptive capacity than overestimated (Figure 2, Figure 3). 
 
@@ -143,7 +138,7 @@ Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relat
 [Figure 3.](assets/vulnMatrix.PNG) Matrix showing differences in resilience grouping between the digitized version of Figure 4 in Malcomb et al. (2014) (Figure 1) and my reproduction. 
 
 
-The reproduced vulnerability was quite different from the original, with a Spearman's Rho 
+The reproduced vulnerability was quite different from the original (Figure 4), with a Spearman's Rho 
 of 0.2892254 (on a scale of 0-1 with 0 being dissimilar and 1 being the same). It also tended to 
 underestimate the original (Figure 5, Figure 6). 
 
