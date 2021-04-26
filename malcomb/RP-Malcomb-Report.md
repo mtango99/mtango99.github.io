@@ -126,7 +126,7 @@ For each output from the original study (mainly figure 4 and figure 5), present 
 
 The reproduced adaptive capacity was relatively similar to the original, with a Spearman's Rho of 0.7757072 on a scale of 0-1 with 0 being dissimilar and 1 being the same. 
 
-![Figure 1](assets/ac_2010.PNG)
+![Figure 1](assets/ac_2010.png)
 
 [Figure 1.](assets/ac_2010.PNG) Digitization of Figure 4 of Malcomb et al. (2014) showing adaptive capacity (resilience) by traditional authority. 
 
