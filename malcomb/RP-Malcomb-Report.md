@@ -124,7 +124,7 @@ For each output from the original study (mainly figure 4 and figure 5), present 
 2.	State whether the original study was or was not supported by the replication
 3.	State whether any hypothesis linked to a planned deviation from the original study was supported. Provide key statistics and related reasoning.
 
-The reproduced adaptive capacity was relatively similar to the original, with a Spearman's Rho of 0.7757072 on a scale of 0-1 with 0 being dissimilar and 1 being the same. 
+The reproduced adaptive capacity was relatively similar to the original, with a Spearman's Rho of 0.7757072 (on a scale of 0-1 with 0 being dissimilar and 1 being the same). 
 
 ![Figure 1](assets/ac_2010.png)
 
@@ -133,13 +133,13 @@ The reproduced adaptive capacity was relatively similar to the original, with a 
 
 ![Figure 2](assets/map_fig4compare.png)
 
-[Figure 2.](assets/map_fig4compare.png) Difference between my results and my digitization of Figure 4 of Malcomb et al. (2014) (Figure 1). 
+[Figure 2.](assets/map_fig4compare.png) Difference between my results and my digitization of Figure 4 of Malcomb et al. (2014) (Figure 1). Reproduction includes 197 traditional authorities. 
 Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relatively similar results between the reproduction and the original. 
 
 
 ![Figure 3](assets/vulnMatrix.PNG)
 
-[Figure 3.](assets/vulnMatrix.PNG) Matrix showing differences in resilience grouping between the digitized version of the Figure 4 in Malcomb et al. (2014) (Figure 1) and my reproduction. 
+[Figure 3.](assets/vulnMatrix.PNG) Matrix showing differences in resilience grouping between the digitized version of Figure 4 in Malcomb et al. (2014) (Figure 1) and my reproduction. 
 
 
 
