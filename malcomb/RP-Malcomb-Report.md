@@ -124,10 +124,7 @@ For each output from the original study (mainly figure 4 and figure 5), present 
 2.	State whether the original study was or was not supported by the replication
 3.	State whether any hypothesis linked to a planned deviation from the original study was supported. Provide key statistics and related reasoning.
 
-Figures: 
----Spearman's Rho (try to get close to 1-- positive correlation. -1,0,1 and statistically significant): TABLE
-- Graph of Figure 5 scatterplot
-
+The reproduced adaptive capacity was relatively similar to the original, with a Spearman's Rho of 0.7757072 on a scale of 0-1 with 0 being dissimilar and 1 being the same. 
 
 ![Figure 1](assets/ac_2010.PNG)
 
@@ -156,7 +153,9 @@ Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relat
 [Figure 5](assets/map_fig5comp.PNG) Difference between my results and my digitization of Figure 5 of Malcomb et al. (2014) (Figure 4). 
 Spearman's Rho was 0.2892254, which is not very close to 1 and therefore had quite different results between the reproduction and the original. 
 
+
 ![Figure 6](assets/resilienceWeights.PNG)
+
 [Figure 6](assets/resilienceWeights.PNG) Scatterplot showing similarity between my raster
 
 
@@ -203,6 +202,10 @@ Provide a summary and interpretation of the key findings of the replication *vis
 - Do figures show the data we think they do? not sure if adaptive capacity or overall vulnerability score
 
 - some didn't have coping strategies too (scores cancel each other out)
+
+
+-There should not have been much of a difference in adaptive capacity (Spearman's Rho of 0.77etc) because we used the same data and weights. Perhaps we normalized the data differently, 
+
 
 - **include paperse in here**
 
