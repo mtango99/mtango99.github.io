@@ -75,22 +75,9 @@ Traditional authority boundary vector layers were downloaded from DHS.
 Livelihood zones were downloaded from USAID/FEWSNET and the "MWI_adm2" layer was used. 
 See the [metadata folder](https://github.com/mtango99/RP-Malcomb/tree/main/data/metadata) for more information. 
 
-**AGGREGATING TO DIFF GEO UNITS:**
 
 ![Table 1.](assets/resilienceWeights.PNG)
 Table 1. Resilience weights. From Malcomb et al. (2014), Table 2. 
-
-
-Outline the data used in the study, including:
-
-- sources of each data layer and
-- the variable(s) used from each data source
-- transformations applied to the variables (e.g. rescaling variables, calculating derived variables, **aggregating to different geographic units**, etc.)
-
-This part may be compiled collaboratively as a group!
-
-**DHS(Household level)
-**LHZ bigger than Trad AUth
 
 
 ### Analytical Specification
@@ -100,6 +87,12 @@ The replication study will use R.
 
 
 ## Materials and Procedure
+
+We used Kufre Udoh & Joe Holler's [R script](assets/RP-Malcomb-jh_3_COPY.Rmd) to run this reproduction, and added in livelihood sensitivity as a group (Arielle Landau, Sanjana Roy, Steven Montilla Morantes, 
+Jackson Mumper, Evan Killion, and me). 
+
+
+Here is a description of our workflow: 
 
 1. Data Preprocessing:
 	1. Download traditional authorities: MWI_adm2.shp
@@ -124,7 +117,7 @@ The replication study will use R.
 	1. Rasterizing final TA capacity layer 
 1. Masking flood and drought layers 
 1. Reclassify drought raster into quantiles
-1. Add all RASTERs together to calculate final output:  final = (40 - geo) * 0.40 + drought * 0.20 + flood * 0.20 - livelihood sensitivity * 0.20
+1. Add all RASTERs together to calculate final output:  final = (40 - geo) * 0.40 + drought * 0.20 + flood * 0.20 + livelihood sensitivity * 0.20
 1. Using zonal statistics to aggregate raster to TA geometry for final calculation of vulnerability in each traditional authority 
 
 
@@ -175,66 +168,110 @@ My reproduction tended to underestimate vulnerability.
 
 ## Unplanned Deviations from the Protocol
 
-Summarize changes and uncertainties between
-- your interpretation and plan for the workflow based on reading the paper (Workflow 1)
-- your final workflow after accessing the data and code and completing the code (Workflow 2)
-
--0-5 to 1-5 (*4+1)
--rescale 0-20 to fit to malcomb
--ours was 20 times less than what they got (1.15?) [25.77]
---WE SHOULD'VE CHANGED THIS? 20 given to us but just based on the scale
---mulitiplying to make it match the data (WHATT??)
--cleaning data and preprocessing (NULL values, NAs)
--ONLY USED 2010 (only considering figure 4)
--Aggregate then do weights (diff of scale 20-- we could have changed) [then after realized]
-- disaster coping strategy; needed to guess (LHZ- what data went into indicators?; aribtary ddecisions about ecological (percentage of total income). grass detrimental to envt)
-
-
+- We had thought that variables were normalized on a 0-5 scale but realized after that Malcomb et al. (2014) mentioned they used quintiles, so we changed the scale to 1-5 by calculating 
+a percent rank (between 0-1), multiplying by 4, and adding 1. We also got very different numbers for the adaptive capacity, so we multiplied by 20 to fit in the range shown in Figure 4 
+in the Malcomb et al. (2014) paper. We are still not sure why our numbers were 20 times smaller than theirs. 
+- We realized we needed to clean data by removing NULL values and NAs. 
+- We realized we did not know how to calculate a measurement for disaster coping strategy, so we guessed using the knowledge we had. This ended up creating relatively arbitrary measures. 
 It had looked like the authors 
 
 ## Discussion
 
-Provide a summary and interpretation of the key findings of the replication *vis-a-vis* the original study results. If the attempt was a failure, discuss possible causes of the failure. In this replication, any failure is probably due to practical causes, which may include:
-- lack of data
---
-- lack of code
-- lack of details in the original analysis (join back?)
-- uncertainties due to manner in which data has been used (uncertainties and vulnerability paper; also Longley's paper)
-- Also the handout (what was the filter-- how did they conceptualize things, how did they measure?-- what contributed to uncertainty)
-- Using reproductions to help with uncertainty (in data and analysis/how it was written)
+While Malcomb et al. (2014) gave general descriptions of what they did, reproducing proved to require many guesses. The adaptive capacity aspect created relatively similar 
+results to those of Malcomb et al. (2014)-- according to the digitization of one of their maps (Figure 4 in Malcomb et al. 2014)-- with a Spearman's rho of 0.7757072. While this 
+is relatively high, it is still low given we think we used the same exact data and methods as they did for this part of the analysis. 
 
--rpres-res. most negative so undercount 
+The total vulnerability scores, compared to a digitization of one of their maps (Figure 5 in Malcomb et al. 2014), had a low Spearman's rho of 0.2892254. It is difficult to know how much of this difference 
+came from a poor digitization vs. data acquisition and vulnerability analysis itself. It would have been really helpful if Malcomb et al. (2014) had provided raw data, derived data, and results in a format that would 
+allow for comparison with a reproduction. It would have also been really helpful if they had provided more details to their analysis, and ideally, the code they used. 
 
-- data uncertainty-- compiled spreadsheet
-- subjectiveness of markers
-- database ethnographies paper (semantic shifts in data representation)
-- Monte Carlo simulation (Tate analysis of uncertainty/sensitivity)-- could do multiple times (subjective decision)-- and write code as fxn and compare which is closest (R works, Q would be hard)
-- which income counts as wage income?
-- Internal validation
-- External validation (generalizable theory, ground truthing)-- did climate change, and were people harmed as predicted?
-- Do figures show the data we think they do? not sure if adaptive capacity or overall vulnerability score
+Generally, our reproduction underestimated vulnerability. It is difficult to know where this underestimation came from. It could have come from the data, the analysis itself, or 
+both. It would be useful to implement a Monte Carlo study, in which at every area of potential uncertainty, there could be a variety of decisions that could be made, and every 
+decision would be randomized each time the model was run to see the degree to which various sources of uncertainty contribute to overall uncertainty in the code (Tate 2013). 
+This would include indicator selection, scale of analysis, measurement error, data transformation, normalization, and weighting (Tate 2013). This may even include challenging the 
+hierarchical model structure (using "metathemes" and subindices) (Tate 2013). 
 
-- some didn't have coping strategies too (scores cancel each other out)
+One of the biggest uncertainties was how Malcomb et al. (2014) calculated disaster coping strategies; we used the percentage of income from potentially environmentally harmful 
+sources. However, these sources of income may not actually be harmful coping strategies; it is possible to exploit resources without overexpoiting them and thus maintain 
+a sustainable source of income. This disconnect between our conception of disaster coping strategies and the measurement itself is reflected by the term "construct validity." 
+There also may have been disconnects between what people said was important in interviews and how these variables were interpreted due to semantic shifts in data representation (Schuurman 2008). 
+
+While the hierarchical structure of the vulnerability model allows for a relatively simple weighting system, some variables are dependent on others. For example, if a family 
+has no money, the other variables become less accessible, even if they technically are. It is also difficult to have faith in assigned percentages to vulnerability variables as that is not necessarily how the real world works, though it may be helpful in gaining a general idea 
+of which areas are most and least vulnerable to stressors. There is difficulty in measuring our conception of the real world, and at each step between the real world, our concpetions, 
+measurement, and analysis, there can be a disconnect that creates uncertainty (Longley et. 2008). I wonder how accurately poor Malawi locals would think this vulnerability model represents them. 
+It is also difficult to check how accurate the model is, because it would require measuring harm during and after environmental or socioeconomic stressors. 
 
 
--There should not have been much of a difference in adaptive capacity (Spearman's Rho of 0.77etc) because we used the same data and weights. Perhaps we normalized the data differently, 
-
-
-**interviews and focus groups, construct validity**
-**worksheets from class**
-
-construct validity of disaster coping strategies. not necessarily bad for the earth! But looks like we may have undercounted given our vulnerability scores are so much lower. but could have been from another part of the analysis as well!
-
-- **include paperse in here**
 
 ## Conclusion
 
-Restate the key findings and discuss their broader societal implications or contributions to theory.
-Do the research findings suggest a need for any future research?
+This reproduction showed that there can be so many areas of uncertainty even if authors at first appeared to have reported their methods fully. 
+If Malcomb et al. want their paper to be accurately applicable, not just to Malawi but to other counties in Sub-Saharan Africa, as they stated, they should be more clear about 
+sources of uncertainty so that they, with the help of the larger research community, can improve their methods. To understand uncertainty better, they should also publish their code, 
+and source code. A Monte Carlo analysis would also be helpful to identify which areas of uncertainty contribute most to both differences between reproductions and the original study, and the 
+original study and real world outcomes.
+
+
+## Acknowledgements
+
+Thanks to Kufre Udoh and Joe Holler for providing the vast majority of the R code for this reproduction. Thanks also to the group I worked with: Arielle Landau (figuring out code), 
+Sanjana Roy (understanding study methods), 
+Steven Montilla Morantes (understanding study methods), Evan Killion (understanding study methods and data sources), and Jackson Mumper (understanding study methods and helping me 
+make maps in R). Thanks, Kufre, for helping me import DHS data another way when my login credentials were not working. 
+
 
 ## References
 
-Include any referenced studies or materials in the [AAG Style of author-date referencing](https://www.tandf.co.uk//journals/authors/style/reference/tf_USChicagoB.pdf).
+Longley, P. A., M. F. Goodchild, D. J. Maguire, and D. W. Rhind. 2008. Geographical information systems and science 2nd ed. Chichester: Wiley. Chapter 6: Uncertainty, pages 127-153. 
+
+Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling for sub-Saharan Africa: An operationalized approach in Malawi. *Applied Geography* 48:17–30. DOI:10.1016/j.apgeog.2014.01.004
+
+Schuurman, N. 2008. Database Ethnographies Using Social Science Methodologies to Enhance Data Analysis and Interpretation. *Geography Compass* 2 (5):1529–1548. 10.1111/j.1749-8198.2008.00150.x
+
+Tate, E. 2013. Uncertainty Analysis for a Social Vulnerability Index. *Annals of the Association of American Geographers* 103 (3):526–543. doi:10.1080/00045608.2012.700616.
+
+
+**R Packages:**
+
+**classInt:** Roger Bivand (2020). classInt: Choose Univariate Class Intervals. R
+  package version 0.4-3. https://CRAN.R-project.org/package=classInt
+  
+**downloader:** Winston Chang (2015). downloader: Download Files over HTTP and HTTPS. R package version 0.4. https://CRAN.R-project.org/package=downloader
+
+**dplyr:**  Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2021).
+  dplyr: A Grammar of Data Manipulation. R package version 1.0.5.
+  https://CRAN.R-project.org/package=dplyr
+
+**ggplot2:** H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag
+  New York, 2016.
+  
+**haven:** Hadley Wickham and Evan Miller (2020). haven: Import and Export 'SPSS',
+  'Stata' and 'SAS' Files. R package version 2.3.1.
+  https://CRAN.R-project.org/package=haven
+
+**here:** Kirill Müller (2020). here: A Simpler Way to Find Your Files. R package
+  version 1.0.1. https://CRAN.R-project.org/package=here
+  
+**readr:** Hadley Wickham and Jim Hester (2020). readr: Read Rectangular Text Data.
+  R package version 1.4.0. https://CRAN.R-project.org/package=readr
+
+**s2:** Dewey Dunnington, Edzer Pebesma and Ege Rubak (2021). s2: Spherical
+  Geometry Operators Using the S2 Geometry Library. R package version
+  1.0.4. https://CRAN.R-project.org/package=s2
+  
+**sf:** Pebesma, E., 2018. Simple Features for R: Standardized Support for
+  Spatial Vector Data. The R Journal 10 (1), 439-446,
+  https://doi.org/10.32614/RJ-2018-009
+  
+**stars:** Edzer Pebesma (2021). stars: Spatiotemporal Arrays, Raster and Vector
+  Data Cubes. R package version 0.5-2.
+  https://CRAN.R-project.org/package=stars
+  
+**rdhs:** Watson OJ, FitzJohn R and Eaton JW. rdhs: an R package to interact with
+  The Demographic and Health Surveys (DHS) Program datasets Wellcome Open
+  Research 2019, 4:103. (https://doi.org/10.12688/wellcomeopenres.15311.1)
+
 
 ####  Report Template References & License
 
