@@ -124,6 +124,8 @@ Here is a description of our workflow:
 
 ## Replication Results
 
+**Adaptive Capacity**
+
 The reproduced adaptive capacity was relatively similar to the original (Figure 1), with a Spearman's Rho of 0.7757072 (on a scale of 0-1 with 0 being dissimilar and 1 being the same). 
 There were a lot more areas where the reproduction underestimated adaptive capacity than overestimated (Figure 2, Figure 3). 
 
@@ -143,9 +145,11 @@ Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relat
 [Figure 3.](assets/vulnMatrix.PNG) Matrix showing differences in resilience grouping between the digitized version of Figure 4 in Malcomb et al. (2014) (Figure 1) and my reproduction. 
 
 
+**Vulnerability**
+
 The reproduced vulnerability was quite different from the original (Figure 4), with a Spearman's Rho 
 of 0.2892254 (on a scale of 0-1 with 0 being dissimilar and 1 being the same). It also tended to 
-underestimate the original (Figure 5, Figure 6). 
+underestimate vulnerability compared to the original study's results (Figure 5, Figure 6). 
 
 
 ![Figure 4](assets/vulnerability.png)
@@ -179,7 +183,8 @@ It had looked like the authors
 
 While Malcomb et al. (2014) gave general descriptions of what they did, reproducing proved to require many guesses. The adaptive capacity aspect created relatively similar 
 results to those of Malcomb et al. (2014)-- according to the digitization of one of their maps (Figure 4 in Malcomb et al. 2014)-- with a Spearman's rho of 0.7757072. While this 
-is relatively high, it is still low given we think we used the same exact data and methods as they did for this part of the analysis. 
+is relatively high, it is still low given we think we used the same exact data and methods as they did for this part of the analysis. This could have been due to the way we 
+mapped the data, though, using the natural jenks method for breaks. 
 
 The total vulnerability scores, compared to a digitization of one of their maps (Figure 5 in Malcomb et al. 2014), had a low Spearman's rho of 0.2892254. It is difficult to know how much of this difference 
 came from a poor digitization vs. data acquisition and vulnerability analysis itself. It would have been really helpful if Malcomb et al. (2014) had provided raw data, derived data, and results in a format that would 
