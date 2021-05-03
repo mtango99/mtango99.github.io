@@ -29,6 +29,7 @@ On this page, you'll find links to various classwork and projects.
 - [GIS as Reproducible Science](blogs/GIScience.md)
 - [Error and Uncertainty](blogs/erroranduncertainty.md)
 - [Spatial Twitter Analysis](blogs/wangTwitterWildfire.md)
+- [Humanitarian GIS](blogs/humanitarianGIS.md)
 
 <br>
 
