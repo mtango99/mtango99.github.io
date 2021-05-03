@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Humanitarian GIS: Uncertainty & Ethics
+title: Humanitarian GIS-- Uncertainty & Ethics
 titleD: 5/3/21
 ---  
 
