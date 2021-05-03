@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Humanitarian GIS-- Uncertainty & Ethics
-titleD: 5/3/21
+title: Humanitarian GIS- Uncertainty & Ethics
+titleD: 5/2/21
 ---  
+
+&nbsp;  
 
 VGI, or volunteered geographic information, includes sources like Twitter, OpenStreetMap, and iNaturalist. While they can be great sources of data, there can be a lot of uncertainty given the unstructured and unregulated nature of data creation. Data volume is inherently biased toward who has volunteered the data. This can lead to an incomplete picture of reality. For example, during disasters, Tweets are not just by victims of its effects but also by first responders, news sources, and others hearing the news and offering condolences and other information. Moreover, with disasters for example, it can be difficult to quantify when it started and ended given vulnerability and social context are so connected to disaster damage. Bots have also become common in social media as well. All of these complexities in Twitter data make it difficult to extrapolate from boiled-down, blanket-analyzed data. The same can be said for VGI data in general, as data should be interpreted differently based on who is uploading the data and why. For example, my Insect Biology class had to enter a lot of data entries into iNaturalist throughout the semester, making it seem like Middlebury, VT has a disproportionate number of insects. It would be important to consider that most posts of insects in Middlebury came from one particular demographic (college students) to prevent inaccurate extrapolation of the data.  
 
