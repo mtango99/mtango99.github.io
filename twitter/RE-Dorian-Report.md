@@ -35,9 +35,15 @@ In this replication study, I will study the spatial and temporal distribution of
 
 ## Original Study Information
 
-Wang et al. (2016) 
+Wang et al. (2016) analyzed the spatial and temporal patterns of wildfire-related tweets between May 13, 2014 and May 22, 2014 using the Twitter search API.
 
-Holler (2021) losely replicated the methods of Wang et al (2016) for the case of Hurricane Dorian's landfall on the U.S. mainland during the 2019 Atlantic Hurricane season. Data was based on Twitter Search API queries. 
+First, Wang et al. (2016) selected for tweets and retweets with the words “fire” or “wildfire.” These tweets could be analyzed based on space, time, content, and network. They mapped the locations of the tweets using centroids of each census block to normalize by population (Figure 3). They also graphed the frequency of tweets over time, and the frequency of the top 10 terms used (Figure 1, Figure 7).
+
+Wang et al. then did a second search, searching by specific wildlife (San Marcos and Bernardo), and filtering out tweets and retweets without the words “fire” or “wildfire” after. This was used to identify ignition locations of the fires so that they could then analyze the influence of distance from the ignition site on Tweet responses. They removed URLs and stop words (words with little meaning), and combined words that meant the same thing. They created a map for each fire, using a dual kernel density estimation (Dual KDE) and again normalizing by census block population (Figure 4, Figure 5). They also graphed the frequency of tweets over time (Figure 2).
+
+They then created a figure of the retweet network using the “k-means clustering method” with the R package “igraph” and published term clusters in the form of a table for “wildfire” tweets (Figure 10, Table 3). This network analysis helped to determine information gatekeepers, using the indegree (times they’ve been retweeted by others) and outdegree (times they have retweeted others) for each node (user).
+
+Holler (2021) loosely replicated the methods of Wang et al (2016) for the case of Hurricane Dorian's landfall on the U.S. mainland during the 2019 Atlantic Hurricane season. Data was based on Twitter Search API queries. 
 
 Holler modified Wang et al.'s methods by not searching for retweets for network analysis, focusing instead on original Tweet content with keywords hurricane, Dorian, or sharpiegate (a trending hashtag referring to the storm). Holler modified the methodology for normalizing tweet data by creating a normalized Tweet difference index and extended the methodology to test for spatial cluserting with the local Getis-Ord statistic. The study tested a hypothesis that false narratives of hurricane risk promulgated at the highest levels of the United States government would significantly distort the geographic distribution of Twitter activity related to the hurricane and its impacts, finding that original Twitter data still clustered only in the affected areas of the Atlantic coast in spite of false narratives about risk of a westward track through Alabama.
 
