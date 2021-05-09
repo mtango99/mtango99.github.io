@@ -67,29 +67,29 @@ The three sets of code used for this analysis can be found [here](https://github
 
 ## Replication Results
 
-![temporalgraph](assets/tweetsByHourAL.PNG)
+![temporalgraph](assets/tweetsByHourAL.png)
 
-[Figure 1.](assets/tweetsByHourAL.PNG) Temporal analysis graph. Created by 
-
-<br>
-![contentanalysisgraph](assets/tweetWordsAL.PNG)
-
-[Figure 2.](assets/tweetWordsAL.PNG) Tweet word content graph. Created by 
+[Figure 1.](assets/tweetsByHourAL.png) Temporal analysis graph. Created by 
 
 <br>
-![wordPairs](assets/tweetsWordPairsAL6.PNG)
+![contentanalysisgraph](assets/tweetWordsAL.png)
 
-[Figure 3.](assets/tweetsWordPairsAL6.PNG) Tweet word pairs. 
-
-<br>
-![tweetLocations](assets/tweetLocationsAL.PNG)
-
-[Figure 4.](assets/tweetLocationsAL.PNG) Tweet locations map. Created by 
+[Figure 2.](assets/tweetWordsAL.png) Tweet word content graph. Created by 
 
 <br>
-![hotspotmap](assets/tweetActivityMapTornado.PNG)
+![wordPairs](assets/tweetsWordPairsAL6.png)
 
-[Figure 5.](assets/tweetActivityMapTornado.PNG) Hotspots map. Created by 
+[Figure 3.](assets/tweetsWordPairsAL6.png) Tweet word pairs. 
+
+<br>
+![tweetLocations](assets/tweetLocationsAL.png)
+
+[Figure 4.](assets/tweetLocationsAL.png) Tweet locations map. Created by 
+
+<br>
+![hotspotmap](assets/tweetActivityMapTornado.png)
+
+[Figure 5.](assets/tweetActivityMapTornado.png) Hotspots map. Created by 
 
 
 ## Unplanned Deviations from the Protocol
