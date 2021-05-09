@@ -48,7 +48,7 @@ Holler (2021) loosely replicated the methods of Wang et al (2016) for the case o
 Holler modified Wang et al.'s methods by not searching for retweets for network analysis, focusing instead on original Tweet content with keywords hurricane, Dorian, or sharpiegate (a trending hashtag referring to the storm). Holler modified the methodology for normalizing tweet data by creating a normalized Tweet difference index and extended the methodology to test for spatial cluserting with the local Getis-Ord statistic. The study tested a hypothesis that false narratives of hurricane risk promulgated at the highest levels of the United States government would significantly distort the geographic distribution of Twitter activity related to the hurricane and its impacts, finding that original Twitter data still clustered only in the affected areas of the Atlantic coast in spite of false narratives about risk of a westward track through Alabama.
 
 Wang et al. (2016) conducted their study using the `tm` and `igraph` packages in `R 3.1.2` but did not state if any other software were used. 
-The replication study by Holler (2021) used R, including the rtweet, rehydratoR, igraph, sf, and spdep packages for analysis.
+The replication study by Holler (2021) used R, including the `rtweet`, `rehydratoR`, `igraph`, `sf`, and `spdep` packages for analysis.
 
 ## Materials and Procedure
 
@@ -60,7 +60,7 @@ Without specified keywords, 8914 tweets were found for these search parameters, 
 The search IDs for the tweets with the keywords can be found [here](https://github.com/mtango99/RE-Dorian/blob/main/data/derived/public/tweetfiltids.txt), 
 and search IDs for the tweets without specifying keywords can be found [here](https://github.com/mtango99/RE-Dorian/blob/main/data/derived/public/tweettotalfiltids.txt).
 
-Tweets were normalized based on population per county; the tidycensus package was used to draw county populations from the US Census. 
+Tweets were normalized based on population per county; the `tidycensus` package was used to draw county populations from the US Census. 
 A "normalized difference tweet index" (ndti) as developed by Holler (2021) was used to gauge how many tweets were about the tornadoes in relation to baseline tweet activity. 
 
 The three sets of code used for this analysis can be found [here](https://github.com/mtango99/RE-Dorian/blob/main/procedure/code/01-search_dorianPROJ.R), [here](https://github.com/mtango99/RE-Dorian/blob/main/procedure/code/02-analyze-dorianPROJ.R), and [here](https://github.com/mtango99/RE-Dorian/blob/main/procedure/code/04-spatial-clusteringPROJ.r). 
