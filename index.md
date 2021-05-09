@@ -23,6 +23,8 @@ On this page, you'll find links to various classwork and projects.
 - [Rosgen Stream Classification](rosgen/rosgenreport.md)
 - [Environmental Vulnerability due to Waste Site Placement Near Water Transmission Features in Dar es Salaam](dsm/dsm.md)
 - [Reproduction of Malcomb et al. (2014)'s Study on Vulnerability Modeling for Sub-Saharan Africa](malcomb/RP-Malcomb-Report.md)
+- [Reproduction of spatial-temporal and content analysis of Twitter Data](twitter/RE-Dorian-Report.md)
+
 
 **Blogs**
 - [What is Open GIScience?](blogs/opensource.md)
@@ -38,6 +40,7 @@ On this page, you'll find links to various classwork and projects.
 **Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021)**
 - [Webpage](thesis/thesis.md)
 - [Repository](https://github.com/mtango99/thesis)
+- [Presentation Video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=27497cde-997b-4f75-98bb-ad1f01311c54)
 - Final Paper: *coming soon*
 
 <br>

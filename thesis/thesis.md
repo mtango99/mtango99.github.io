@@ -60,7 +60,9 @@ Here is an [Excel file](https://github.com/mtango99/thesis/blob/main/results/Fin
 Here is the [statistics R script](https://github.com/mtango99/thesis/blob/main/procedure/code/rf_example.R) that uses Random Forests, GLMs, and AICc to show which of the landscape metrics are most associated with bat fatalities. Because there was not enough information to put together bat fatality estimates, I used a sample script of [random data](https://github.com/mtango99/thesis/blob/main/data/RandomForests_randomData2.csv) (this also does not have all possible variables included). 
 
 
+**Presentation**
 
+[Here](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=27497cde-997b-4f75-98bb-ad1f01311c54) you can find my final presentation video. 
 
 <br>
 **Acknowledgements**
