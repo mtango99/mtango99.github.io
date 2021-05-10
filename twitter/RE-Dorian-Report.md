@@ -70,51 +70,55 @@ The three sets of code used for this analysis can be found [here](https://github
 ![temporalgraph](assets/tweetsByHourAL.png)
 
 [Figure 1.](assets/tweetsByHourAL.png) Temporal analysis graph. Graphs frequency of filtered tweets with keywords over time. 
+There was a large spike in tweets with keywords "tornado," "tornado warning," and "debris" on April 29, then very few tweets until May 3-May 5, when tweets were more common. 
 
 <br>
 ![contentanalysisgraph](assets/tweetWordsAL.png)
 
 [Figure 2.](assets/tweetWordsAL.png) Tweet word content frequency graph. Words do not include "stop words" (words like "the" and "and" with no relevant meaning) or the keywords used in the search. 
+It makes sense that "warning" had the most given I used keywords "tornado" and "tornado warning," but not "warning." Time-related words (cdt, pm, tn, 00, 15, 30, 45) and location-related words (states abbreviations like ms, tx, and county) were most common. 
 
 <br>
 ![wordPairs](assets/tweetsWordPairsAL6.png)
 
-[Figure 3.](assets/tweetsWordPairsAL6.png) Tweet word pairs. Shows a network analysis of filtered tweets based on their relationship in the tweet/retweet network. 
+[Figure 3.](assets/tweetsWordPairsAL6.png) Tweet word pairs. Shows a network analysis of filtered tweets based on their relationship in the tweet/retweet network. Time-related and location-related words are most clumped, with many numbers and county names. 
 
 <br>
 ![tweetLocations](assets/tweetLocationsAL.png)
 
-[Figure 4.](assets/tweetLocationsAL.png) Tweet locations map. Shows filtered tweets (500 mi from (32,-87) coordinates. 
+[Figure 4.](assets/tweetLocationsAL.png) Tweet locations map. Shows filtered tweets (500 mi from (32,-87) coordinates). Tweets track tornado activity. 
 
 <br>
 ![hotspotmap](assets/tweetActivityMapTornado.png)
 
-[Figure 5.](assets/tweetActivityMapTornado.png) Hotspots map. Created using an Ord G* statistic. 
+[Figure 5.](assets/tweetActivityMapTornado.png) Hotspots map. Created using an Ord G* statistic. Tweets track tornado activity. 
 
 
 ## Unplanned Deviations from the Protocol
 
-Summarize changes and uncertainties between
-- your expectation of a reproduction workflow based on the reading and Dorian analysis
-- your final workflow after completing the lab
-
 For the filtered tweet network (Figure 3), I changed "n" from 25 to 6 so that more word pairs would show up. 
-
+Other than that, I followed Joe Holler's scripts, which itself deviated a bit from the Wang et al. (2016) methodology given only one API search was conducted (as opposed to 2 for Wang et al. (2016)). We used the same data to track the locations of the tornadoes and analyze spatially as well. 
 
 ## Discussion
 
-Provide a summary and interpretation of your key findings in relation to your research question. Mention if findings confirm or contradict patterns observed by Wang et al. (2016) or by Holler (2021)
---follow path, yes
+My findings confirm patterns observed by Wang et al. (2016), that tweets 
+can characterize a natural disaster over space and time. Particularly for this analysis, where I only 
+used tweets with GPS coordinates, it makes sense that those more connected to the 
+natural disaster would feel more comfortable with sharing GPS coordinates, though 
+perhaps out of necessity. Holler (2021) found similar results, that tweets tracked Hurricane Dorian over space. 
 
 
 ## Conclusion
 
-Restate the key findings and discuss their broader societal implications or contributions to theory.
-Do the research findings suggest a need for any future research?
+While using tweet data can have ethical implications due to privacy concerns (Crawford & Finn 2014), it can also be useful for better understanding 
+how the general public views and experiences news, natural disasters, and any other trending topics on Twitter. Future studies should consider best practices for using 
+personal data. 
+
+
 
 ## References
 
-Include any referenced studies or materials in the [AAG Style of author-date referencing](https://www.tandf.co.uk//journals/authors/style/reference/tf_USChicagoB.pdf).
+Crawford, K., and M. Finn. 2014. The limits of crisis data: analytical and ethical challenges of using social and mobile data to understand disasters. *GeoJournal* 80 (4):491–502. DOI:10.1007/s10708-014-9597-z
 
 ####  Report Template References & License
 
