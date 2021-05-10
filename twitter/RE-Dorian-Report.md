@@ -17,7 +17,7 @@ Maddie Tango
 Replication Materials Available at: [mtango99.github.io](mtango99.github.io)
 
 Created: `05 May 2020`
-Revised: `DD Month YYYY`
+Revised: `10 May 2020`
 
 ## Abstract 
 
