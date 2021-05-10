@@ -4,7 +4,7 @@ title: RE- Spatial-temporal and content analysis of Twitter Data
 ---
 
 
-**Replication of**
+**Replication of:**
 # Spatial, temporal and content analysis of Twitter data
 
 Original study *by* Wang, Z., X. Ye, and M. H. Tsou. 2016. Spatial, temporal, and content analysis of Twitter for wildfire hazards. *Natural Hazards* 83 (1):523–540. DOI:[10.1007/s11069-016-2329-6](https://doi.org/10.1007/s11069-016-2329-6). 
