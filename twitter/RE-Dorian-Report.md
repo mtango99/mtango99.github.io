@@ -21,15 +21,15 @@ Revised: `DD Month YYYY`
 
 ## Abstract 
 
-Why study the spatial distribution of Twitter data?
+Why study the spatial distribution of Twitter data? 
 
 Wang et al. (2016) analyzed Twitter data for wildfires in California, finding that the social media data can track wildfires over space and time, and showed that news media and local authority were dominant in the wildfire retweet network. 
 
-Holler (2021) is studying Twitter data for Hurricane Dorian on the Atlantic coast, finding that in spite of tending news and social media content regarding a false narrative of risk, original Tweets still clustered significantly along the real hurricane track, and only along the hurricane track.
+Holler (2021) is studying Twitter data for Hurricane Dorian on the Atlantic coast, finding that in spite of tending news and social media content regarding a false narrative of risk, original tweets still clustered significantly along the real hurricane track, and only along the hurricane track.
 
 Reproducing and replicating spatial research of Wang et al. (2016) and Holler (2021) is important for understanding how we may analyze large datasets such as Twitter tweets and retweets, using keywords and R packages for visualization. 
 
-In this replication study, I will study the spatial and temporal distribution of tweets with the words "tornado," "tornado warning," and "debris" 500 miles from Alabama coordinates (32,-87) between April 27 - May 6, 2021. 
+In this replication study, I will study the spatial and temporal distribution of tweets with the words "tornado," "tornado warning," and "debris" 500 miles from Alabama coordinates (32,-87) between April 27 - May 5, 2021. 
 
 
 
@@ -53,9 +53,9 @@ The replication study by Holler (2021) used R, including the `rtweet`, `rehydrat
 ## Materials and Procedure
 
 I used the code provided by Holler (2021) and changed the Twitter search parameters to the words "tornado," "tornado warning," and "debris" within 500 mi of Alabama coordinates (32,-87). 
-Data were downloaded on May 5, 2021. 
+Data were downloaded on May 5, 2021 and thus included tweets from between April 27 - May 5, 2021. 
 8452 results came up out of a total dataset for that area. 
-Of these 8452 tweets, only 752 had GPS coordinates. 
+Of these 8452 tweets, only 752 had GPS coordinates. I will refer to these 752 tweets as "filtered tweets."
 Without specified keywords, 8914 tweets were found for these search parameters, with coordinates. 
 The search IDs for the tweets with the keywords can be found [here](https://github.com/mtango99/RE-Dorian/blob/main/data/derived/public/tweetfiltids.txt), 
 and search IDs for the tweets without specifying keywords can be found [here](https://github.com/mtango99/RE-Dorian/blob/main/data/derived/public/tweettotalfiltids.txt).
@@ -69,27 +69,27 @@ The three sets of code used for this analysis can be found [here](https://github
 
 ![temporalgraph](assets/tweetsByHourAL.png)
 
-[Figure 1.](assets/tweetsByHourAL.png) Temporal analysis graph. Created by 
+[Figure 1.](assets/tweetsByHourAL.png) Temporal analysis graph. Graphs frequency of filtered tweets with keywords over time. 
 
 <br>
 ![contentanalysisgraph](assets/tweetWordsAL.png)
 
-[Figure 2.](assets/tweetWordsAL.png) Tweet word content graph. Created by 
+[Figure 2.](assets/tweetWordsAL.png) Tweet word content frequency graph. Words do not include "stop words" (words like "the" and "and" with no relevant meaning) or the keywords used in the search. 
 
 <br>
 ![wordPairs](assets/tweetsWordPairsAL6.png)
 
-[Figure 3.](assets/tweetsWordPairsAL6.png) Tweet word pairs. 
+[Figure 3.](assets/tweetsWordPairsAL6.png) Tweet word pairs. Shows a network analysis of filtered tweets based on their relationship in the tweet/retweet network. 
 
 <br>
 ![tweetLocations](assets/tweetLocationsAL.png)
 
-[Figure 4.](assets/tweetLocationsAL.png) Tweet locations map. Created by 
+[Figure 4.](assets/tweetLocationsAL.png) Tweet locations map. Shows filtered tweets (500 mi from (32,-87) coordinates. 
 
 <br>
 ![hotspotmap](assets/tweetActivityMapTornado.png)
 
-[Figure 5.](assets/tweetActivityMapTornado.png) Hotspots map. Created by 
+[Figure 5.](assets/tweetActivityMapTornado.png) Hotspots map. Created using an Ord G* statistic. 
 
 
 ## Unplanned Deviations from the Protocol
@@ -97,6 +97,9 @@ The three sets of code used for this analysis can be found [here](https://github
 Summarize changes and uncertainties between
 - your expectation of a reproduction workflow based on the reading and Dorian analysis
 - your final workflow after completing the lab
+
+For the filtered tweet network (Figure 3), I changed "n" from 25 to 6 so that more word pairs would show up. 
+
 
 ## Discussion
 
