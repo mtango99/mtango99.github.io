@@ -15,9 +15,10 @@ Use of personal data for research is complicated because humans are complicated.
 &nbsp;  
 
 Questions for class debate about curtailing vs. expanding the use/capabilities/applications of spatial big data research:
-- How do we trust the government? What are ways ensure proper data use?
+- How do we trust the government? What are ways to ensure proper data use?
 - How can researchers understand localized contexts/humanify data?
 - Do you think that, in general, research helps or harms vulnerable populations? 
 - Were you satisfied with Zook et al.’s 10 rules for responsible big data research? 
 - Are you more afraid of the government or private entities using data irresponsibly? Are there differences in how to address each to improve data use practices? 
 
+&nbsp;  
