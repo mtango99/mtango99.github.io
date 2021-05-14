@@ -32,6 +32,7 @@ On this page, you'll find links to various classwork and projects.
 - [Error and Uncertainty](blogs/erroranduncertainty.md)
 - [Spatial Twitter Analysis](blogs/wangTwitterWildfire.md)
 - [Humanitarian GIS](blogs/humanitarianGIS.md)
+- [Reproducibility vs. Ethics](blogs/reproducibilityethics.md)
 
 <br>
 
