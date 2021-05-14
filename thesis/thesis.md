@@ -64,6 +64,12 @@ Here is the [statistics R script](https://github.com/mtango99/thesis/blob/main/p
 
 [Here](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=27497cde-997b-4f75-98bb-ad1f01311c54) you can find my final presentation video. 
 
+
+**Full Thesis Paper**
+
+My final thesis document can be found [here](assets/Tango_ThesisFinal.pdf)
+
+
 <br>
 **Acknowledgements**
 
