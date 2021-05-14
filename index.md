@@ -41,7 +41,7 @@ On this page, you'll find links to various classwork and projects.
 - [Webpage](thesis/thesis.md)
 - [Repository](https://github.com/mtango99/thesis)
 - [Presentation Video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=27497cde-997b-4f75-98bb-ad1f01311c54)
-- [Final Thesis Paper](assets/Tango_ThesisFinal.pdf)
+- [Final Thesis Paper](thesis/assets/Tango_ThesisFinal.pdf)
 
 <br>
 

@@ -67,7 +67,7 @@ Here is the [statistics R script](https://github.com/mtango99/thesis/blob/main/p
 
 **Full Thesis Paper**
 
-My final thesis document can be found [here](assets/Tango_ThesisFinal.pdf)
+My final thesis document can be found [here](assets/Tango_ThesisFinal.pdf) or in my Thesis repository [here](https://github.com/mtango99/thesis/blob/main/docs/manuscript/Tango_ThesisFinal.pdf). 
 
 
 <br>
