@@ -30,7 +30,7 @@ Unfortunately, a lot of studies did not report enough information for their raw 
 <br>
 **Models & R Scripts**
 
-I made some models and R scripts that reproduce the methods of the [Peters et al. (2020)](https://tethys.pnnl.gov/sites/default/files/publications/Landscape_Factors_and_Migratory_Tree_Bats_0.pdf) paper. Instructions and details for using the models and R scripts can be found [here](https://github.com/mtango99/thesis/blob/main/procedure/protocols/Model_InfoSheet.docx). 
+I made some models and R scripts that reproduce the methods of the [Peters et al. (2020)](https://tethys.pnnl.gov/sites/default/files/publications/Landscape_Factors_and_Migratory_Tree_Bats_0.pdf) paper. Instructions and details for using the models and R scripts can be found [here](assets/Model_InfoSheet.pdf) or in my GitHub repository [here](https://github.com/mtango99/thesis/blob/main/procedure/protocols/Model_InfoSheet.pdf). 
 
 Here is a workflow of Peters et al. (2020)'s methods.
 
