@@ -93,9 +93,9 @@ Table 3. Rosgen Level II Classification
 [Figure 3.](assets/crossProfileFloodProne.jpg) Cross-sectional profile of stream site, zoomed into flood-prone area.  
 
 <br>
-![Figure 4.](assets/valleysdemShade.png)
+![Figure 4.](assets/valleysdemShade2.png)
  
-[Figure 4.](assets/valleysdemShade.png) Valley centerlines and DEM with shading. 
+[Figure 4.](assets/valleysdemShade2.png) Valley centerlines and DEM with shading. Used multiply hillshade effect in QGIS 3.16.4.
 
 <br>
 ![Figure 5.](assets/banksSlope.png)
