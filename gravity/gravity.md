@@ -68,14 +68,19 @@ I used leaflet to export my map to the web, and then adjusted the index.html fil
 
 **[Figure 1.](assets/hospitalcatchmentsMA.png)** Hospital catchments in Massachusetts. 
 
-The Massachusets catchments I produced using the model differ from the Dartmouth Health Atlas catchments, likely due to differences in how distance, population, and beds 
-were weighted in the model. It is also possible that the way I preprocessed my data (to exclude closed hospitals, those that are not open for 
-public use, or those without beds, and combine hospitals in the same ZIP code) differed from the way in which the Dartmouth Health Atlas preprocessed theirs. 
+<br>
+***DISCUSSION***
+
+The Dartmouth catchments represent real population use of hospitals based on Medicare and Medicaid databases. 
+The Massachusets catchments I produced using the model differ from the Dartmouth Health Atlas catchments, likely due to how distance, population, and beds 
+were weighted in my model. 
+It is also possible that the way I preprocessed my data (to exclude closed hospitals, those that are not open for 
+public use, or those without beds, and combine hospitals in the same ZIP code) differed from the way Dartmouth Health Atlas treated theirs. 
 
 The catchments from my model and Dartmouth's are similar in that those in and around Boston are smaller geographically as there are more hospitals and higher populations there. 
-However, Dartmouth catchments are smaller than my model's, indicating their inclusion of more hospitals in their analysis. 
-This is most noticable in Western Massachusets. It could also be that the distance friction for the Dartmouth catchments was higher than for my model, 
-making it so people were more likely to go to a closer hospital than a larger one and thus making catchments more evenly sized. 
+However, Dartmouth catchments are smaller than my model's (this is most noticable in Western Massachusetts), 
+indicating that distance was more of a factor in reality than my weights predicted. In other words, being close to a hospital 
+was more important than its size. It is also possible that the Dartmouth catchments included more hospitals in their analysis than I did, which would also make catchments smaller. 
 
 <br>
 
