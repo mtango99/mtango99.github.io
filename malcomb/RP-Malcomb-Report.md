@@ -12,7 +12,7 @@ Original study *by* Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vuln
 Replication Authors:
 Madeleine Tango, Joseph Holler, Kufre Udoh, Open Source GIScience students of fall 2019 and Spring 2021
 
-Replication Materials Available at: [mtango99.github.io/malcomb](mtango99.github.io/malcomb)
+Replication Materials Available at: [https://github.com/mtango99/RP-Malcomb](https://github.com/mtango99/RP-Malcomb)
 
 Created: `23 April 2021`
 Revised: `26 April 2021`
@@ -85,6 +85,46 @@ Table 1. Resilience weights. From Malcomb et al. (2014), Table 2.
 The original study was conducted using ArcGIS and STATA, but does not state which versions of these software were used.
 The replication study will use R.
 
+**R Packages:**
+
+**classInt:** Roger Bivand (2020). classInt: Choose Univariate Class Intervals. R
+  package version 0.4-3. https://CRAN.R-project.org/package=classInt
+  
+**downloader:** Winston Chang (2015). downloader: Download Files over HTTP and HTTPS. R package version 0.4. https://CRAN.R-project.org/package=downloader
+
+**dplyr:**  Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2021).
+  dplyr: A Grammar of Data Manipulation. R package version 1.0.5.
+  https://CRAN.R-project.org/package=dplyr
+
+**ggplot2:** H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag
+  New York, 2016.
+  
+**haven:** Hadley Wickham and Evan Miller (2020). haven: Import and Export 'SPSS',
+  'Stata' and 'SAS' Files. R package version 2.3.1.
+  https://CRAN.R-project.org/package=haven
+
+**here:** Kirill Müller (2020). here: A Simpler Way to Find Your Files. R package
+  version 1.0.1. https://CRAN.R-project.org/package=here
+  
+**readr:** Hadley Wickham and Jim Hester (2020). readr: Read Rectangular Text Data.
+  R package version 1.4.0. https://CRAN.R-project.org/package=readr
+
+**s2:** Dewey Dunnington, Edzer Pebesma and Ege Rubak (2021). s2: Spherical
+  Geometry Operators Using the S2 Geometry Library. R package version
+  1.0.4. https://CRAN.R-project.org/package=s2
+  
+**sf:** Pebesma, E., 2018. Simple Features for R: Standardized Support for
+  Spatial Vector Data. The R Journal 10 (1), 439-446,
+  https://doi.org/10.32614/RJ-2018-009
+  
+**stars:** Edzer Pebesma (2021). stars: Spatiotemporal Arrays, Raster and Vector
+  Data Cubes. R package version 0.5-2.
+  https://CRAN.R-project.org/package=stars
+  
+**rdhs:** Watson OJ, FitzJohn R and Eaton JW. rdhs: an R package to interact with
+  The Demographic and Health Surveys (DHS) Program datasets Wellcome Open
+  Research 2019, 4:103. (https://doi.org/10.12688/wellcomeopenres.15311.1)
+
 
 ## Materials and Procedure
 
@@ -126,12 +166,12 @@ Here is a description of our workflow:
 
 **Adaptive Capacity**
 
-The reproduced adaptive capacity was relatively similar to the original (Figure 1), with a Spearman's Rho of 0.7757072 (on a scale of 0-1 with 0 being dissimilar and 1 being the same). 
+The reproduced adaptive capacity (Figure 1) was relatively similar to the original (Figure 4 of Malcomb et al. (2014)), with a Spearman's Rho of 0.7757072 (on a scale of 0-1 with 0 being dissimilar and 1 being the same). 
 There were a lot more areas where the reproduction underestimated adaptive capacity than overestimated (Figure 2, Figure 3). 
 
 ![Figure 1](assets/ac_2010.png)
 
-[Figure 1.](assets/ac_2010.png) Digitization of Figure 4 of Malcomb et al. (2014) showing adaptive capacity (resilience) by traditional authority. 
+[Figure 1.](assets/ac_2010.png) Results of analysis showing adaptive capacity (resilience) by traditional authority. 
 
 
 ![Figure 2](assets/map_fig4compare.png)
@@ -147,14 +187,14 @@ Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relat
 
 **Vulnerability**
 
-The reproduced vulnerability was quite different from the original (Figure 4), with a Spearman's Rho 
+The reproduced vulnerability (Figure 4) was quite different from the original (Figure 5 of Malcomb et al. (2015)), with a Spearman's Rho 
 of 0.2892254 (on a scale of 0-1 with 0 being dissimilar and 1 being the same). It also tended to 
 underestimate vulnerability compared to the original study's results (Figure 5, Figure 6). 
 
 
 ![Figure 4](assets/vulnerability.png)
 
-[Figure 4.](assets/vulnerability.png) Digitization of Figure 5 of Malcomb et al. (2015) showing vulnerability.  
+[Figure 4.](assets/vulnerability.png) Results of analysis showing vulnerability. 
 
 
 ![Figure 5](assets/map_fig5comp.png)
@@ -163,9 +203,9 @@ underestimate vulnerability compared to the original study's results (Figure 5, 
 Spearman's Rho was 0.2892254, which is not very close to 1 and therefore had quite different results between the reproduction and the original. 
 
 
-![Figure 6](assets/fig5compscatter.PNG)
+![Figure 6](assets/fig5compscatter2.PNG)
 
-[Figure 6.](assets/fig5compscatter.PNG) Scatterplot showing similarity between my vulnerability scores and those of the original study based on a digitization of Figure 5 in Malcomb et al. (2014) (Figure 1). 
+[Figure 6.](assets/fig5compscatter2.PNG) Scatterplot showing similarity between my vulnerability scores and those of the original study based on a digitization of Figure 5 in Malcomb et al. (2014) (Figure 1). 
 My reproduction tended to underestimate vulnerability. 
 
 
@@ -177,7 +217,17 @@ a percent rank (between 0-1), multiplying by 4, and adding 1. We also got very d
 in the Malcomb et al. (2014) paper. We are still not sure why our numbers were 20 times smaller than theirs. 
 - We realized we needed to clean data by removing NULL values and NAs. 
 - We realized we did not know how to calculate a measurement for disaster coping strategy, so we guessed using the knowledge we had. This ended up creating relatively arbitrary measures. 
-It had looked like the authors 
+- Our original workflow-- before looking at the R code provided by Joe Holler & Kufre Udoh and the data itself-- is below: 
+	- Step 1: Preprocessing of Geographic Boundaries
+		- 2004-2010 DHS data points (for each village surveyed): District → ***disaggregated*** → villages → ***disaggregated*** → traditional authorities 
+		- DHS Households table (1 row/house) → ***field calc*** → conversion to 0-5 scale → weighted A/C score → ***join by attribute*** w/ DHS data points (village level) → ***spatial join AND group*** w/ traditional authorities (GADM adm_2) → traditional authorities w/ Capacity Score → ***Raster***
+		- Drought exposure → ***rescale 0-5***
+		- Flood risk → ***rescale 0-5***
+		- Livelihood zones → ***copy #s from spreadsheet*** →***rescale 0-5*** →  ***Rasterize*** → ***Raster Calc*** (w/ Drought Exposure and Flood Risk Rasters) 
+	- Step 2: Data Input
+		- UNEP/grid Europe, Famine early warning network → ***Raster*** → ***Weight values***: All vulnerability measures were weighted (table 2) and normalized between 0 & 5 in RStudio
+	- Step 3: Creating the Model of Vulnerability 
+		- ***Calculate***: Household resilience = adaptive capacity + livelihood sensitivity - biophysical exposure 
 
 ## Discussion
 
@@ -236,46 +286,6 @@ Schuurman, N. 2008. Database Ethnographies Using Social Science Methodologies to
 
 Tate, E. 2013. Uncertainty Analysis for a Social Vulnerability Index. *Annals of the Association of American Geographers* 103 (3):526–543. doi:10.1080/00045608.2012.700616.
 
-
-**R Packages:**
-
-**classInt:** Roger Bivand (2020). classInt: Choose Univariate Class Intervals. R
-  package version 0.4-3. https://CRAN.R-project.org/package=classInt
-  
-**downloader:** Winston Chang (2015). downloader: Download Files over HTTP and HTTPS. R package version 0.4. https://CRAN.R-project.org/package=downloader
-
-**dplyr:**  Hadley Wickham, Romain François, Lionel Henry and Kirill Müller (2021).
-  dplyr: A Grammar of Data Manipulation. R package version 1.0.5.
-  https://CRAN.R-project.org/package=dplyr
-
-**ggplot2:** H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag
-  New York, 2016.
-  
-**haven:** Hadley Wickham and Evan Miller (2020). haven: Import and Export 'SPSS',
-  'Stata' and 'SAS' Files. R package version 2.3.1.
-  https://CRAN.R-project.org/package=haven
-
-**here:** Kirill Müller (2020). here: A Simpler Way to Find Your Files. R package
-  version 1.0.1. https://CRAN.R-project.org/package=here
-  
-**readr:** Hadley Wickham and Jim Hester (2020). readr: Read Rectangular Text Data.
-  R package version 1.4.0. https://CRAN.R-project.org/package=readr
-
-**s2:** Dewey Dunnington, Edzer Pebesma and Ege Rubak (2021). s2: Spherical
-  Geometry Operators Using the S2 Geometry Library. R package version
-  1.0.4. https://CRAN.R-project.org/package=s2
-  
-**sf:** Pebesma, E., 2018. Simple Features for R: Standardized Support for
-  Spatial Vector Data. The R Journal 10 (1), 439-446,
-  https://doi.org/10.32614/RJ-2018-009
-  
-**stars:** Edzer Pebesma (2021). stars: Spatiotemporal Arrays, Raster and Vector
-  Data Cubes. R package version 0.5-2.
-  https://CRAN.R-project.org/package=stars
-  
-**rdhs:** Watson OJ, FitzJohn R and Eaton JW. rdhs: an R package to interact with
-  The Demographic and Health Surveys (DHS) Program datasets Wellcome Open
-  Research 2019, 4:103. (https://doi.org/10.12688/wellcomeopenres.15311.1)
 
 
 ####  Report Template References & License

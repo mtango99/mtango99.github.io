@@ -19,7 +19,7 @@ increased contact between humans and pathogens, toxins, and other environmental 
 es Salaam to identify spatial distribution of environmental vulnerability.
 
 <br>
-***MAPS***
+***FIGURES***
 
 You can view a Leaflet map **[here](assets/)**, clicking on wards to investigate ward names, area in km^2, number of waste sites in the ward, and density of waste sites.
 
@@ -43,10 +43,10 @@ Color of wards indicates density of waste sites within 50 m of water transmissio
 
 
 <br>
-***RESULTS***
+***RESULTS & DISCUSSION***
 
 Waste sites within 50 meters of waterways tended to be clustered in the center of the city (Figure 1). It is difficult to tell whether this is because waste sites were more 
-likely to be included in the layer if within the city due to data collection bias, or if there were indeed more waste sites in the center of the city. 
+likely to be included in the layer if within the city due to data collection bias, or if there were indeed more waste sites in the center of the city, reflecting an inadequate disposal service (and likely related to wealth). 
 
 4947 out of 9628 (51.38%) waste sites were within 50 meters of waterways (Figure 2). Many waterways converge in the center of the city, so it makes sense there would be so many within those buffers. 
 However, it is also possible that when collecting data, observers walked along waterways, or that people tend to put trash near waterways. It also makes sense that because 
@@ -56,7 +56,8 @@ Conversely, there are many wards with no waste sites, mostly outside of the city
 waterways, in most cases there just were no waste sites in the ward (Figure 2). Here we again need to consider how data collection affected our results-- 
 particularly given this data is open source and editable by anyone with access, so the presence of observers in a particular area tends to be more relevant in interpreting data. 
 The fact that there are no waste sites at all in some wards indicates lack of data collection rather than a reflection of reality, even despite lower population density in areas 
-farther from the city (Figure 3).
+farther from the city (Figure 3). It is possible that some areas just have a great disposal service and thus no waste sites exist, but this is information we lack due to not having been in 
+Dar es Salaam or understanding the full context of waste in and around the city. 
 
 
 <br>
