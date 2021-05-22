@@ -290,10 +290,10 @@
                         <td colspan="2">ZIP: ' + (feature.properties['ZIP'] !== null ? autolinker.link(feature.properties['ZIP'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">NAME: ' + (feature.properties['NAME'] !== null ? autolinker.link(feature.properties['NAME'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">Hospital Name: ' + (feature.properties['NAME'] !== null ? autolinker.link(feature.properties['NAME'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">BEDS: ' + (feature.properties['BEDS'] !== null ? autolinker.link(feature.properties['BEDS'].toLocaleString()) : '') + '</td>\
+                        <td colspan="2">Beds: ' + (feature.properties['BEDS'] !== null ? autolinker.link(feature.properties['BEDS'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
