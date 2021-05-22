@@ -174,9 +174,9 @@ There were a lot more areas where the reproduction underestimated adaptive capac
 [Figure 1.](assets/ac_2010.png) Results of analysis showing adaptive capacity (resilience) by traditional authority. 
 
 
-![Figure 2](assets/map_fig4compare.png)
+![Figure 2](assets/map_fig4compare2.png)
 
-[Figure 2.](assets/map_fig4compare.png) Difference between my results and my digitization of Figure 4 of Malcomb et al. (2014) (Figure 1). Reproduction includes 197 traditional authorities. 
+[Figure 2.](assets/map_fig4compare2.png) Difference between my results and my digitization of Figure 4 of Malcomb et al. (2014) (Figure 1). Reproduction includes 197 traditional authorities. 
 Spearman's Rho was 0.7757072, which is fairly close to 1 and therefore had relatively similar results between the reproduction and the original. 
 
 
