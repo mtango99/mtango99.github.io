@@ -64,7 +64,9 @@ the MA shapefile (which had to be exported with a State Plane CRS to add a buffe
 **[Here](assets/)** you can find an *interactive web map* of hospital catchments in Massachusetts, comparing those of the model with those of the Dartmouth Atlas. 
 I used leaflet to export my map to the web, and then adjusted the index.html file to label pop-up atttributes and add my name.
 
-**[Here](assets/hospitalcatchmentsMA.png)** you can find a *static map* of hospital catchments in Massachusetts.
+![staticmap](assets/hospitalcatchmentsMA.png)
+
+**[Static map](assets/hospitalcatchmentsMA.png)** of hospital catchments in Massachusetts. 
 
 The Massachusets catchments I produced using the model differ from the Dartmouth Health Atlas catchments, likely due to differences in how distance, population, and beds 
 were weighted in the model. It is also possible that the way I preprocessed my data (to exclude closed hospitals, those that are not open for 
