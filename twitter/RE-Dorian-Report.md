@@ -39,6 +39,8 @@ from Alabama coordinates (32,-87) between April 27 - May 5, 2021.
 
 ## Original Study Information
 
+*all figures cited in this section can be found in Wang et al. (2016)
+
 Wang et al. (2016) analyzed the spatial and temporal patterns of wildfire-related tweets between May 13, 2014 and May 22, 2014 using the Twitter search API.
 
 First, Wang et al. (2016) selected for tweets and retweets with the words “fire” or “wildfire.” These tweets could be analyzed based on space, time, content, and network. 
@@ -112,7 +114,8 @@ It makes sense that "warning" had the most given I used keywords "tornado" and "
 <br>
 ![hotspotmap](assets/tweetActivityMapTornado.png)
 
-[Figure 5.](assets/tweetActivityMapTornado.png) Hotspots map. Created using an Ord G* statistic. Tweets track tornado activity. 
+[Figure 5.](assets/tweetActivityMapTornado.png) Hotspots map. Created using an Ord G* 
+statistic. Tweets track tornado activity. 
 
 
 ## Unplanned Deviations from the Protocol
@@ -122,22 +125,42 @@ Other than that, I followed Joe Holler's scripts, which itself deviated a bit fr
 
 ## Discussion
 
+Tweet word content frequency (Figure 2) and tweet word pairs (Figure 3) show a strong relationship between tornado-related tweets and words having to do with location and time. 
 My findings confirm patterns observed by Wang et al. (2016), that tweets 
 can characterize a natural disaster over space and time. Particularly for this analysis, where I only 
 used tweets with GPS coordinates, it makes sense that those more connected to the 
 natural disaster would feel more comfortable with sharing GPS coordinates, though 
 perhaps out of necessity. Holler (2021) found similar results, that tweets tracked Hurricane Dorian over space. 
 
-**Due to the lack of news... (wiki page???)**
-However, it is difficult to know in my case if the (tracking one tornado or multiple at a time??)
-Future should add average date to each patch??
-Smaller extent than Dorian
+It is difficult to extrapolate from the maps created in this analysis the association between time and space; for example, the tweet locations and hotspots maps do not 
+show if there is one tornado moving across space over time, if there are multiple tornadoes at the same time, or if there are multiple tornadoes at different times. 
+However, news sources and outside research help to clarify this uncertainty. 
+While there are not many articles about these tornadoes, there is a [news article](https://www.ksat.com/weather/2021/04/28/tornado-watch-has-been-issued-for-areas-west-of-san-antonio/) 
+describing a tornado with hail as big as softballs in San Antonio, Texas on April 28th and a [Wikipedia article](https://en.wikipedia.org/wiki/Tornado_outbreak_of_May_2%E2%80%934,_2021) that describes 
+the tornado outbreak between May 2-4. These are times when tweet frequency increased (Figure 1). San Antonio can be seen on in both the tweet locations map (Figure 4) and the hotspots map (Figure 5). 
+
+The tornado outbreak of May 2-4, 2021 is described to be many tornadoes at the same time; 85 (mostly weak) tornadoes were confirmed in this time period in the Southeastern United States and Central Plains. 
+The tornadoes began in Mississippi on May 2, and Nebraska, Georgia, South Carolina, West Virginia, and Texas were also hit. These areas generally line up with with tornado-related tweet activity. 
+Texas was therefore hit both times-- on April 28th and then during the May 2-4 tornadoes. Given the tornadoes were relatively weak, it makes sense that Twitter activity would line 
+up with landfall of the tornadoes, versus in cases of more extreme natural disasters, there tends to be a lull in Twitter activity during the disaster itself due to a lack of access to electricity 
+or due to other more pressing matters related to survival. 
+
+Future analyses should add average dates to hotspots in maps to help better understand temporal-spatial relationships so that researchers are able to rely less on Google searches 
+and more on the data itself (even though Google searches are helpful for context). 
+
+While my sample size is decently large-- 752 tweets in a 500 mi radius-- it may not be a representative sample given it only includes tweets with GPS coordinates. It also does 
+not include the full extent of the tornado outbreak given its spatial extent, although it includes most states that experienced tornadoes in that timeframe. 
+Holler's Dorian analysis includes a larger radius (1000 mi instead of 500 mi) and thus more tweets, during a more severe natural disaster. The maps produced by Holler's analysis 
+have much more clear patterns; for example, there is much clearer difference in high and low hotspots (high on the east coast and low inland). My hotspot map did not produce many areas 
+with low hotspots. It is unclear why there was such a large difference in area with low hotspots between my analysis and Holler's, but it may have to do with sample size. 
+However, given tornado activity tracks tornado-related Twitter activity in my study, I have confidence in my sample and analysis. 
+
 
 ## Conclusion
 
 While using tweet data can have ethical implications due to privacy concerns (Crawford & Finn 2014), it can also be useful for better understanding 
 how the general public views and experiences news, natural disasters, and any other trending topics on Twitter. Future studies should consider best practices for using 
-personal data. 
+personal data to protect sensitive information published during situations of survival. 
 
 
 

@@ -121,3 +121,5 @@ Thanks to Steven Montilla-Morantes for the idea to make a new figure with circle
 Thanks to Alitzel Villanueva's help as we thought through the Covid Accessibility Jupyter Notebook to better understand Kang et al.'s methods. 
 Thanks to Maja Cannavo for bringing up the point about lack of access to cars, area-weighted reaggregation, and for figuring out how to fix the invalid speed limit error. 
 Thanks to Professor Joe Holler for guiding us through understanding the methods of Kang et al. (2020) and its sources of uncertainty. 
+
+<br>
