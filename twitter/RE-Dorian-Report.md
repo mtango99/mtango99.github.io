@@ -128,7 +128,7 @@ used tweets with GPS coordinates, it makes sense that those more connected to th
 natural disaster would feel more comfortable with sharing GPS coordinates, though 
 perhaps out of necessity. Holler (2021) found similar results, that tweets tracked Hurricane Dorian over space. 
 
-Due to the lack of news... (wiki page???)
+**Due to the lack of news... (wiki page???)**
 However, it is difficult to know in my case if the (tracking one tornado or multiple at a time??)
 Future should add average date to each patch??
 Smaller extent than Dorian

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: COVID-19 Healthcare Accessibility in Chicago
+title: Reproduction of COVID-19 Healthcare Accessibility in Chicago
 titleD: 5/25/21
 ---
 
 **Introduction**
 
-There is a need to better understand accessibility to hospitals for COVID-19 treatment. Kang et al. (2020) have recognized this need 
+There is a need to better understand accessibility to healthcare for COVID-19 treatment. Kang et al. (2020) have recognized this need 
 and have created code that rapidly measures spatial accessibility to ICU beds and ventilators in Illinois. 
 This published code can be used by other researchers and provide a sample to be applied to other areas and perhaps other contexts altogether. 
 In this study, we analyze the published Python code in a Jupyter notebook and attempt to reproduce the study. The code analyzes access in Chicago to 
@@ -49,11 +49,24 @@ I used blue because red is often associated with an undesirable characteristic.
 
 Because Kang et al. limited their road network to Chicago itself and hospitals were associated with the nearest street network node, for analytical purposes there were 
 many hospitals at the edge of the city. We therefore added a buffer of 15 miles (24140.2 m) to Chicago to extend the street network. There were a few streets with invalid 
-speed limit entries, so we implemented Maja Cannavo's idea and code using "try" and "except" commands to replace invalid speed limits with 35 mph. 
+speed limit entries, so we implemented Maja Cannavo's idea and code using "try" and "except" commands to replace invalid speed limits with 35 mph. The original map that 
+Kang et al. produces in the Jupyter code (Figure 1). The low accessibility in the northwest is because the street network did not originally extend there, and hospitals 
+were moved for analytical purposes to the edges of the street network. Once we buffered the street network, accessibility values in northeast Chicago therefore increased 
+because hospitals in that region were included in the analysis closer to their actual location (Figure 2). 
 
-***ADD MAP & THEIR RESULTSSSSSSSSSSSSSSSSSSSS HERE***
 
-I created a sample map (Figure 1) of Chicago hospitals and accessibility using a better color ramp and including ICU bed numbers in the visualization. 
+![Figure 1](assets/ChicagoResultOrig.png)
+
+[Figure 1.](assets/ChicagoResultOrig.png) Map showing original results from Kang et al.'s Jupyter notebook. The northwest values are low because the street network does not extend to that area. 
+Red represents more access to ICU beds. 
+
+![Figure 2](assets/network_fix.png)
+
+[Figure 2.](assets/network_fix.png) Map showing results from Kang et al.'s Jupyter notebook after extended the road network by adding a buffer of 15 miles (24140.2 m). 
+The northwest values are now higher than in the original map because the street network now extends to that area. Red represents more access to ICU beds. 
+Thanks to Jackson Mumper for this map (the catchments line of my Jupyter notebook does not run; it has been over 4 hours). 
+
+I created a sample map (Figure 3) of Chicago hospitals and accessibility using a better color ramp and including ICU bed numbers in the visualization. 
 I used the Chicago accessibility data (ACC_Chicago_2018_ZIP_POP) in the raw data folder in the RP-Kang repository, using a color gradient from white to blue. This color ramp was chosen because Kang et al. 
 had used a white to red color ramp to describe less to more hospital accessibility, which was confusing because red typically represents something undesirable. 
 This color ramp was applied to the field 'value', which I am assuming represents accessibility. The authors did not specify if they took into account ICU beds or ventilators 
@@ -61,15 +74,15 @@ This color ramp was applied to the field 'value', which I am assuming represents
 or ventilator distribution across space, as the authors originally did not change the size of the circles representing hospitals. The repository used for 
 this analysis can be found at [https://github.com/mtango99/RP-Kang](https://github.com/mtango99/RP-Kang). 
 
-![Figure 1](assets/hospitalAccess.png)
+![Figure 3](assets/hospitalAccess.png)
 
-[Figure 1.](assets/hospitalAccess.png) Map showing access to ICU beds in Chicago. Hospital point size corresponds to number of ICU beds. Blue represents more access. 
+[Figure 3.](assets/hospitalAccess.png) Map showing access to ICU beds in Chicago. Hospital point size corresponds to number of ICU beds. Blue represents more access. 
 
 It would have been helpful if Kang et al. had added more details about what the two maps at the top of the Jupyter notebook represent. 
 What units are the scale in? Is it showing ICU beds or ventilators? 
 
 Unfortunately, the catchments took so long to load in the Jupyter notebook that it was difficult to play around 
-with the script to test how the code changed the final figure. If possible, I would recommend 
+with the script to test how the code changed the final figure. (I ran it for over 4 hours and it still did not load.) If possible, I would recommend 
 that Kang et al. find a way to speed up this process to increase accessibility. 
 While having the code accessible does make measuring spatial accessibility more rapid, 
 there could still be improvements. 
