@@ -4,6 +4,7 @@ title: Reproduction of COVID-19 Healthcare Accessibility in Chicago
 titleD: 5/25/21
 ---
 
+<br>
 **Introduction**
 
 There is a need to better understand accessibility to healthcare for COVID-19 treatment. Kang et al. (2020) have recognized this need 
@@ -66,6 +67,7 @@ Red represents more access to ICU beds.
 The northwest values are now higher than in the original map because the street network now extends to that area. Red represents more access to ICU beds. 
 Thanks to Jackson Mumper for this map (the catchments line of my Jupyter notebook does not run; it has been over 4 hours). 
 
+<br>
 I created a sample map (Figure 3) of Chicago hospitals and accessibility using a better color ramp and including ICU bed numbers in the visualization. 
 I used the Chicago accessibility data (ACC_Chicago_2018_ZIP_POP) in the raw data folder in the RP-Kang repository, using a color gradient from white to blue. This color ramp was chosen because Kang et al. 
 had used a white to red color ramp to describe less to more hospital accessibility, which was confusing because red typically represents something undesirable. 
@@ -76,8 +78,9 @@ this analysis can be found at [https://github.com/mtango99/RP-Kang](https://gith
 
 ![Figure 3](assets/hospitalAccess.png)
 
-[Figure 3.](assets/hospitalAccess.png) Map showing access to ICU beds in Chicago. Hospital point size corresponds to number of ICU beds. Blue represents more access. 
+[Figure 3.](assets/hospitalAccess.png) Map showing access to ICU beds in Chicago. Hospital point size corresponds to number of ICU beds. On a gradient, dark blue represents more access and white represents less access. 
 
+<br>
 It would have been helpful if Kang et al. had added more details about what the two maps at the top of the Jupyter notebook represent. 
 What units are the scale in? Is it showing ICU beds or ventilators? 
 
