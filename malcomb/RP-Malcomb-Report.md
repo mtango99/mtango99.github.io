@@ -35,7 +35,12 @@ data (with GPS) was used to create an **adaptive capacity** layer, which include
 assets (livestock units, arable land, number of those sick in household in past 
 12 months, wealth index score, and number of orphans in household) and access (time 
 to water source, has electricity, type of cooking fuel, sex of head of household, 
-owns a cell phone, owns a radio, and urban/rural). Household data from DHS was aggregated to DHA clusters and then joined to traditional authorities. 
+owns a cell phone, owns a radio, and urban/rural). 
+DHS data was collected by household clusters to protect the confidentiality of 
+respondents, and GPS data was recorded at the center of each cluster ([DHS methodology](https://github.com/mtango99/RP-Malcomb/blob/main/data/metadata/DHS_GPS_Manual_English_A4_24May2013_DHSM9.pdf)). 
+Then, cluster GPS positions were randomly displaced; urban clusters therefore have 0-2 km of error, 
+and rural clusters have 0-5 km of error, with some up to 10 km ([DHS GPS data collection](https://github.com/mtango99/RP-Malcomb/blob/main/data/metadata/location%20accuracy.pdf)). 
+Household data from DHS was aggregated to DHA clusters and then joined to traditional authorities. 
 **Livelihood sensitivity** data came from 
 interviews with the Malawi Vulnerability Assessment Committee, as well as data they created 
 with the Famine Early Warning System Netowrk and the US Agency for International Development. 
@@ -52,6 +57,7 @@ For disaster coping strategy, we looked for potentially ecologically harmful
 practices, including firewood, wild food, and grass sales. We added up income from these 
 practices and divided by total income. 
 All of these were converted to percentages by multiplying by 100. 
+Livelihood sensitivity zones were divided based on the data collected and can be found [here](https://github.com/mtango99/RP-Malcomb/blob/main/data/metadata/MW_LHZ_2009.pdf). 
 A **physical exposure** layer included data from UNEP Global Resource Information
 Database (GRID)-Europe with variables of estimated risk for flood hazard and exposition to drought events. 
 
@@ -138,15 +144,15 @@ Here is a description of our workflow:
 	1. Download traditional authorities: MWI_adm2.shp
 1. Adding TA and LZ ids to DHS clusters 
 1. Removing HH entries with invalid or unknown values 
-1. Aggregating HH data to DHA clusters, and then joining to traditional authorities to get: ta_capacity_2010
+1. Aggregating HH data to DHS clusters, and then joining to traditional authorities to get: ta_capacity_2010
 1. Removing index and livestock values that were NA 
-1. Sum of Livestock by HH
+1. Sum of livestock by HH
 1. Scale adaptive capacity fields (from DHS data) on scale of 1 - 5 to match Malcomb et al.
-1. Weight capacity based on table 2 in Malcomb et al. 
+1. Weight capacity based on Table 2 in Malcomb et al. 
 	1. Calculate capacity by summing all weighted capacity fields
 1. Summarize capacity from households to traditional authorities
 1. Joining mean capacities to TA polygon layer
-1. Making capacity score resemble Malcomb et al's work (scores on range of 0-20) by multiplying capacity score by 20
+1. Making capacity score resemble Malcomb et al.'s work (scores on range of 0-20) by multiplying capacity score by 20
 1. Categorizing capacities using natural jenks methods 
 1. Creating blank raster and setting extent of Malawi - CRS: 4326 
 1. Reproject, clip and resampling flood risk and drought exposure rasters to new extent and cell size
@@ -233,8 +239,11 @@ in the Malcomb et al. (2014) paper. We are still not sure why our numbers were 2
 
 While Malcomb et al. (2014) gave general descriptions of what they did, reproducing proved to require many guesses. The adaptive capacity aspect created relatively similar 
 results to those of Malcomb et al. (2014)-- according to the digitization of one of their maps (Figure 4 in Malcomb et al. 2014)-- with a Spearman's rho of 0.7757072. While this 
-is relatively high, it is still low given we think we used the same exact data and methods as they did for this part of the analysis. This could have been due to the way we 
-mapped the data, though, using the natural jenks method for breaks. 
+is relatively high, it is still low given we think we used the same exact data and methods as they did for this part of the analysis. It is possible that our order of operations was different; 
+for example, perhaps instead of aggregating and then weighting, Malcomb et al. (2014) first weighted and then aggregated. 
+While there is uncertainty in the DHS data due to the way in which geographic uncertainty was intentionally added to protect confidentiality, since we used the same data this 
+should not affect our Spearman's rho. It is possible that we did not aggregate in the correct order; we aggregated household data to DHS clusters and then joined to traditional 
+authorities, but differences in aggregation methods may have contributed to a lower Spearman's rho. Perhaps adaptive capacity was scaled differently in the original study as well. 
 
 The total vulnerability scores, compared to a digitization of one of their maps (Figure 5 in Malcomb et al. 2014), had a low Spearman's rho of 0.2892254. It is difficult to know how much of this difference 
 came from a poor digitization vs. data acquisition and vulnerability analysis itself. It would have been really helpful if Malcomb et al. (2014) had provided raw data, derived data, and results in a format that would 
@@ -270,9 +279,10 @@ original study and real world outcomes.
 
 ## Acknowledgements
 
-Thanks to Kufre Udoh and Joe Holler for providing the vast majority of the R code for this reproduction. Thanks also to the group I worked with: Arielle Landau (figuring out code), 
+Thanks to Kufre Udoh and Joe Holler for providing the vast majority of the R code for this reproduction. Thanks to Vincent Falardeau for figuring out the code to make a diverging color ramp in R. 
+Thanks also to the group I worked with: Arielle Landau (figuring out code), 
 Sanjana Roy (understanding study methods), 
-Steven Montilla Morantes (understanding study methods), Evan Killion (understanding study methods and data sources), and Jackson Mumper (understanding study methods and helping me 
+Steven Montilla Morantes (understanding study methods and sources of uncertainty), Evan Killion (understanding study methods and data sources), and Jackson Mumper (understanding study methods and helping me 
 make maps in R). Thanks, Kufre, for helping me import DHS data another way when my login credentials were not working. 
 
 

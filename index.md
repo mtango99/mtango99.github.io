@@ -24,6 +24,7 @@ On this page, you'll find links to various classwork and projects.
 - [Environmental Vulnerability due to Waste Site Placement Near Water Transmission Features in Dar es Salaam](dsm/dsm.md)
 - [Reproduction of Malcomb et al. (2014)'s Study on Vulnerability Modeling for Sub-Saharan Africa](malcomb/RP-Malcomb-Report.md)
 - [Reproduction of Spatial-Temporal and Content Analysis of Twitter Data](twitter/RE-Dorian-Report.md)
+- [Reproduction of COVID-19 Healthcare Accessibility in Chicago](covid/covid.md)
 
 
 **Blogs**
