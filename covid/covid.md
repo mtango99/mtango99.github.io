@@ -108,7 +108,7 @@ a given hexagon.
 
 With sources of uncertainty both within the analysis and in the way it is applied to the real world (construct validity) without accounting for other accessibility measures, 
 it is important to not use the results of Kang et al. (2020) as a completely accurate representation of reality. However, it does give a relatively good sense of access and 
-serves as a valuable framework for future accessibility studies. Given the code is open-source, it provides valuable tools to researchers who may want to do a similar analysis quickly or build on and improve the methods of Kang et al., as we did. 
+serves as a valuable framework for future accessibility studies. Given the code is open source, it provides valuable tools to researchers who may want to do a similar analysis quickly or build on and improve the methods of Kang et al., as we did. 
 
 
 <br>
