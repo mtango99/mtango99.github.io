@@ -65,7 +65,7 @@ Red represents more access to ICU beds.
 
 [Figure 2.](assets/network_fix.png) Map showing results from Kang et al.'s Jupyter notebook after extended the road network by adding a buffer of 15 miles (24140.2 m). 
 The northwest values are now higher than in the original map because the street network now extends to that area. Red represents more access to ICU beds. 
-Thanks to Jackson Mumper for this map (the catchments line of my Jupyter notebook does not run; it has been over 4 hours). 
+Thanks to Jackson Mumper for this map (the catchments line of my Jupyter notebook does not run; it has been over 8 hours). 
 
 <br>
 I created a sample map (Figure 3) of Chicago hospitals and accessibility using a better color ramp and including ICU bed numbers in the visualization. 
