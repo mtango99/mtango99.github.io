@@ -75,4 +75,4 @@ My final thesis document can be found [here](assets/Tango_ThesisFinal.pdf) or in
 
 Thanks to my thesis advisors, Professor Joseph Holler and Professor David Allen for their ideas, support, and edits throughout this project. Thanks especially to Professor Holler helping me think about reproducibility as well as his QGIS knowledge, and to Professor Allen for helping me with statistics and R code. 
 
-
+Thanks to the American Wind Wildlife Institute for funding my participation in the Wind Wildlife Research Meeting through the Wind Wildlife Research Meeting 2020 Scholarship Program. 
