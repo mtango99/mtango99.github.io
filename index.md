@@ -50,7 +50,7 @@ On this page, you'll find links to various classwork and projects, including my 
 <br>
 
 ## Other
-- Remote Sensing with Google Earth Engine [Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
+- [Remote Sensing with Google Earth Engine Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
 - [GitHub repository](https://github.com/mtango99)
 - [LinkedIn Profile](https://linkedin.com/in/madeleinetango/); resume available upon request
 - [Photography](https://vsco.co/mtango99/)
