@@ -11,7 +11,7 @@ I am completing a degree in Conservation Biology (joint major between Environmen
 I am interested in bringing interdisciplinary solutions to environmental issues using foundations in conservation biology, geography, and political ecology. 
 I hope to put my skills in GIS and remote sensing to use to fight for a more equitable and biodiverse world in a context where I am always able to learn and develop new skills.
 
-Research interests include: land cover and land use change, natural hazard and contamination management, climate vulnerability and resilience, climate change modelling, coral ecosystems, renewable energy expansion and wildlife impacts, co-design approaches to conservation, equity-based research, participatory mapping.
+My research interests include: land cover and land use change, natural hazard and contamination management, climate vulnerability and resilience, climate change modelling, coral ecosystems, renewable energy expansion and wildlife impacts, co-design approaches to conservation, equity-based research, participatory mapping.
 
 On this page, you'll find links to various classwork and projects, including my open source porfolio, senior thesis, and remote sensing portfolio. 
 
