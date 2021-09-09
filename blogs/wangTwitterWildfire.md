@@ -26,3 +26,4 @@ National Academies of Sciences, Engineering, and Medicine 2019. *Reproducibility
 Wang, Z., X. Ye, and M. H. Tsou. 2016. Spatial, temporal, and content analysis of Twitter for wildfire hazards. *Natural Hazards* 83 (1):523–540.
 
 
+--
