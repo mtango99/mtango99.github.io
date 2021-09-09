@@ -24,6 +24,3 @@ According to the National Academy definition, replicability “is obtaining cons
 National Academies of Sciences, Engineering, and Medicine 2019. *Reproducibility and Replicability in Science.* Washington, DC: The National Academies Press. Chapter 3. https://doi.org/10.17226/25303
 
 Wang, Z., X. Ye, and M. H. Tsou. 2016. Spatial, temporal, and content analysis of Twitter for wildfire hazards. *Natural Hazards* 83 (1):523–540.
-
-
---
