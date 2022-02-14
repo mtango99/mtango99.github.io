@@ -52,8 +52,8 @@ On this page, you'll find links to various classwork and projects, including my 
 
 ## Other
 - [Remote Sensing with Google Earth Engine Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
-- [Data Science of Environmental Health, Final Project](https://madeleinetango.shinyapps.io/finalProjectShiny/) (ENVS1230, Jan 2022)
-- [GitHub repository](https://github.com/mtango99)
+- [Data Science of Environmental Health Final Project](https://madeleinetango.shinyapps.io/finalProjectShiny/) (ENVS1230, Jan 2022)
+- [GitHub Repository](https://github.com/mtango99)
 - [LinkedIn Profile](https://linkedin.com/in/madeleinetango/); resume available upon request
 - [Photography](https://vsco.co/mtango99/)
 
