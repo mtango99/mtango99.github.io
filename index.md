@@ -51,7 +51,8 @@ On this page, you'll find links to various classwork and projects, including my 
 <br>
 
 ## Other
-- [Remote Sensing with Google Earth Engine Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
+- Internship with The Nature Conservancy: [Interactive Map](https://rswaty.github.io/carbonBlockGroups/dash.html) (November 2021-January 2022)
+- Remote Sensing with Google Earth Engine: [Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
 - [Data Science of Environmental Health Final Project](https://madeleinetango.shinyapps.io/finalProjectShiny/) (ENVS1230, Jan 2022)
 - [GitHub Repository](https://github.com/mtango99)
 - [LinkedIn Profile](https://linkedin.com/in/madeleinetango/); resume available upon request
