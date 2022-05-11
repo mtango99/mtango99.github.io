@@ -41,7 +41,7 @@ On this page, you'll find links to various classwork and projects, including my 
 <br>
 
 ## Senior Thesis Work
-### Replicability of a Geographic Analysis: Effects of Land Cover on Bat Fatalities at Wind Turbines
+### Reproducibility of a Geographical Study on the Effects of Wind Turbines on Bat Fatalities in the Northeast United States
 **Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021)**
 - [Webpage](thesis/thesis.md)
 - [Repository](https://github.com/mtango99/thesis)

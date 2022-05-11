@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Replicability of a Geographic Analysis- Effects of Land Cover on Bat Fatalities at Wind Turbines
+title: Reproducibility of a Geographical Study on the Effects of Wind Turbines on Bat Fatalities in the Northeast United States
 titleD: 5/13/21
 ---
 
