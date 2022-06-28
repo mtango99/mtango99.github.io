@@ -16,6 +16,8 @@ My research interests include: environmental justice spatial analysis, land cove
 
 On this page, you'll find links to various classwork and projects, including my open source porfolio, senior thesis, and remote sensing portfolio. 
 
+Contact me at: madeleine.sophie.tango@gmail.com
+
 <br>
 
 ## Open Source GIScience
