@@ -30,7 +30,7 @@ The original study was published without data or code, but has detailed narrativ
 
 ### Data Description and Variables
 
-This study used a variety of variables to determine vulnerability. Demographic and Helath Survey (DHS) 
+This study used a variety of variables to determine vulnerability. Demographic and Health Survey (DHS) 
 data (with GPS) was used to create an **adaptive capacity** layer, which included 
 assets (livestock units, arable land, number of those sick in household in past 
 12 months, wealth index score, and number of orphans in household) and access (time 
