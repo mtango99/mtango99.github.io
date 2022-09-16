@@ -43,7 +43,7 @@ and rural clusters have 0-5 km of error, with some up to 10 km ([DHS GPS data co
 Household data from DHS was aggregated to DHA clusters and then joined to traditional authorities. 
 **Livelihood sensitivity** data came from 
 interviews with the Malawi Vulnerability Assessment Committee, as well as data they created 
-with the Famine Early Warning System Netowrk and the US Agency for International Development. 
+with the Famine Early Warning System Network and the US Agency for International Development. 
 Livelihood sensitivity variables include food from own farm (less vulnerability), 
 income from wage labor (less vulnerability), income from cash crops (more vulnerability), 
 and disaster coping strategies (looking specifically at environmentally harmful practices, 
