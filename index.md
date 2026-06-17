@@ -5,8 +5,8 @@ layout: default
 
 ## Welcome! 
 
-My name is Madeleine Tango and I am recent graduate from Middlebury College student, having graduated in February 2022. 
-I completed a degree in Conservation Biology (joint major between Environmental Studies and Biology) with a minor in Geography. 
+My name is Madeleine Tango. 
+I have a degree in Conservation Biology (joint major between Environmental Studies and Biology) with a minor in Geography from Middlebury College. 
 
 I bring interdisciplinary solutions to environmental and social issues using GIS and remote sensing, as well as foundations in conservation biology, human geography, and political ecology. 
 I am seeking employment in which I contribute to the fight for a more equitable and biodiverse world, in a context where I am always able to learn and develop new skills.
@@ -21,7 +21,7 @@ Contact me at: madeleine.sophie.tango@gmail.com
 <br>
 
 ## Open Source GIScience
-### GEOG0323 (Spring 2021) | [Class Site](https://gis4dev.github.io/)
+### GEOG0323 | [Class Site](https://gis4dev.github.io/)
 
 **Projects**
 - [Gravity Model of Spatial Interaction](gravity/gravity.md)
@@ -44,7 +44,7 @@ Contact me at: madeleine.sophie.tango@gmail.com
 
 ## Senior Thesis Work
 ### Reproducibility of a Geographical Study on the Effects of Wind Turbines on Bat Fatalities in the Northeast United States
-**Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021)**
+**Integrative Thesis: Environmental Studies, Geography, Biology**
 - [Webpage](thesis/thesis.md)
 - [Repository](https://github.com/mtango99/thesis)
 - [Presentation Video](https://midd.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=27497cde-997b-4f75-98bb-ad1f01311c54)
