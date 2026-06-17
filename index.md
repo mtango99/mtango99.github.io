@@ -53,9 +53,9 @@ Contact me at: madeleine.sophie.tango@gmail.com
 <br>
 
 ## Other
-- Internship with The Nature Conservancy: [Interactive Map](https://rswaty.github.io/carbonBlockGroups/dash.html) (November 2021-January 2022)
-- Remote Sensing with Google Earth Engine: [Portfolio](https://sites.middlebury.edu/madeleinetango/) (GEOG0351, Fall 2020)
-- [Data Science of Environmental Health Final Project](https://madeleinetango.shinyapps.io/finalProjectShiny/) (ENVS1230, Jan 2022)
+- Internship with The Nature Conservancy: [Interactive Map](https://rswaty.github.io/carbonBlockGroups/dash.html)
+- Remote Sensing with Google Earth Engine: [Portfolio](https://sites.middlebury.edu/madeleinetango/)
+- [Data Science of Environmental Health Final Project](https://madeleinetango.shinyapps.io/finalProjectShiny/)
 - [GitHub Repository](https://github.com/mtango99)
 - [LinkedIn Profile](https://linkedin.com/in/madeleinetango/); resume available upon request
 - [Photography](https://vsco.co/mtango99/)
