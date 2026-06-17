@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Reproducibility of a Geographical Study on the Effects of Wind Turbines on Bat Fatalities in the Northeast United States
-titleD: 5/13/21
 ---
 
 <br>
-### Integrative Thesis: Environmental Studies, Geography, Biology (Fall 2020-Spring 2021) ###
+### Integrative Thesis: Environmental Studies, Geography, Biology ###
 
 **Advisors: Joseph Holler & David Allen**
 
